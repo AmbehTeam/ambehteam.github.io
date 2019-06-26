@@ -11,7 +11,7 @@
         border: 3px solid black;
         border-radius: 5px;
         width: auto;
-        height: auto;
+        height: ;
       }
       a {
       text-decoration: none;
@@ -41,7 +41,7 @@
       .menudropdown1 {
         width:100%;
         height:100px;
-        margin:0px auto;
+        margin: auto;
       }
       .menudropdown1 , img {
         position: -webkit-sticky; 
@@ -76,7 +76,6 @@
         text-decoration: none;
         background-color: #4CAF50;
         font-size: 18px;
-        width:;
         }
 
       .menudropdown1 li.dropdown {
