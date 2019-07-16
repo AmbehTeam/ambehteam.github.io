@@ -1,22 +1,104 @@
 <!DOCTYPE html>
 <html  dir="ltr" lang="en">
-	<head>
+  <head>
     
-		<meta charset="utf-8" />
-		<title>Scientific Schools - Ambeh Team</title>
+    <meta charset="utf-8" />
+    
+    <title>Scientific Schools - Ambeh Team</title>
     <link href="/normalize.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i" rel="stylesheet">
     <link href="/style.css" type="text/css"rel="stylesheet" />
 
-	</head>
+  </head>
   <style>
+  .accordion {
+    background-color:   #e60000;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: 2;
+    border-color: black;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-left: 20%;
+     font-family: 'Cinzel', serif;
+  }
+  .accordion2 {
+    background-color: #A52A2A ;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+     font-family: 'Cinzel', serif;
+  }
+  .actives2, .accordion:hover {
+    background-color: #4CAF50; 
+  }
+  .actives, .accordion2:hover {
+    background-color: black; 
+  }
+  .panel {
+   padding: 0 18px;
+   background-color: #f1f1f1;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   width: 70%;
+   margin-left: 20%;
+   font-size: 22px;
+   font-family:  'Josefin Sans', sans-serif;
+  }
+  .panel2 {
+   padding: 0 18px;
+   background-color: #f1f1f1;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   width: 100%;
+   font-size: 22px;
+   font-family:  'Josefin Sans', sans-serif;
+  }
+  
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    
+  }
 
+  .actives2:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+  .accordion2:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    
+  }
+
+  .actives:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
     .options:hover {
       color: #D32323;
-      font-size: 25px;
-      padding: 5px;
+     
+    font-weight:bold;
     }
     
     .column.right {    /* Right column */
@@ -25,36 +107,36 @@
             text-align: center;
             position: relative;
             font-size: 13px;
-            padding-top: 60px;
+            padding-top: 10px;
 
         }
 
 
-      .column.left {  /* left column */
-           width: 70%;
+    .column.left {  /* left column */
+           width: 60%;
            float: left;
-           margin-left: 300px;
+           margin-left: 200px;
            font-size: 24px;
            font-family: 'Josefin Sans', sans-serif; 
            margin-bottom: 45px;
            margin-top: 60px;
         }
-
-  </style>
+    
+    </style>
   <body>
     <div class="header">
-	   <h1>Ambeh Team</h1>
+     <h1>Ambeh Team</h1>
     </div>
     <img src="/images/ju.png"/ width="100px" height="110px" title="Ambeh Team - University of Jordan" alt ="University of Jordan" style="float:right">
      <img src="/images/ju.png"/ width="100px" height="110px"  title="Ambeh Team - University of Jordan" alt ="University of Jordan" style="float:left">
     <br />
     <div class="menudropdown1" style="z-index: 100;">
-	   	<ul>
-  			<li><a href="https://ambehteam.github.io/index.html">Home</a></li>
- 			  <li><a href="#scientific" class="active">Scientific Schools</a>
-   			 		<ul class="dropdown-content">
-    				   <li>
-                <a href="#kasit">King Abdullah II School of <br />Information Technology</a>
+      <ul>
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="#scientific" class="active">Scientific Schools</a>
+            <ul class="dropdown-content">
+               <li>
+                <a href="/scientific/kasit/kasit.html">King Abdullah II School of <br />Information Technology</a>
               </li>
 
               <li>
@@ -170,7 +252,7 @@
         <li>
           <a href="" class="dropbtn">Health Schools</a>
             <ul class="dropdown-content">
-             <li><a href="/scientific/soon.html">School of Medicine</a>
+              <li><a href="/scientific/soon.html">School of Medicine</a>
                   <!--<ul class="dropdown-content2">
                     <li><a href="#">Anatomy and Histology</a></li>
                     <li><a href="#">Anesthesia and Intensive Care</a></li>
@@ -223,15 +305,308 @@
               </li>
             </ul>
         </li>
-  			<li style="float:right">
-  				<a href="#">Arabic</a>
-  			</li>
-	   </ul>
- </div>
+        <li style="float:right">
+          <a href="#">Arabic</a>
+        </li>
+     </ul>
+   </li>
+ </ul>
+</div>
+<div class="column left">
+<h3 style="margin: 20px;text-decoration: underline;font-size: 32px;margin-left: 500px;"><strong>Computer Science :</strong></h3>
+
+<button class="accordion">Obligatory Specialization Requirements </button>
+<div class="panel">
+  
+<button class="accordion2">Principles of Statistics</button>
+<div class="panel2">
+ <table border="0" style="width: 100%;" cellspacing="0" cellpadding="0"><tbody>
+        <tr>
+      <td style="padding:3px;">
+        <center><img src="/images/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+      </td>
+      <td class="container">
+        <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Osama Alqam</a>
+        <div ><a href="Statistics Notebook - Osama Alqam.pdf" style="color: white;" class="overlay" download target="_blank">Open or Download file</a></div>
+      </td>
+    </tr>
+        <tr>
+      <td style="padding:3px;">
+        <center><img src="/images/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+      </td>
+      <td class="container">
+        <a href="#" class="image" style="padding: 5px;">PDF | Something useful</a>
+        <div class="overlay" download target="_blank">Open or Download file</div>
+      </td>
+    </tr>
+        <tr>
+      <td style="padding:3px;">
+        <center><img src="/images/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+      </td>
+      <td class="container">
+        <a href="#" class="image" style="padding: 5px;">PDF | Something useful 222</a>
+        <div ><a href="aziz.jpg" style="color: white;" class="overlay" download target="_blank" >Open or Download file</a></div>
+      </td>
+    </tr> 
+      </tbody>
+    </table>
+</div>
+
+<button class="accordion2">Theory of Algorithms</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">Computer Graphics</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">COMPUTER NETWORKS - 1</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">OPERATING SYSTEMS  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">OBJECT ORIENTED PROGRAMMING - 1  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">OBJECT ORIENTED PROGRAMMING - 2  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">ARTIFICIAL INTELLIGENCE  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">MULTIMEDIA</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">INFORMATION SYSTEM INNOVATION AND NEW TECHNOLOGY</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">HUMAN COMPUTER INTERACTION </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">COMPUTER ASSISTED LEARNING </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">INTRODUCTION TO SOFTWARE ENGINEERING</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">ADVANCED DATABASE SYSTEMS  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">DISTRIBUTED DATABASES  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">DIGITAL IMAGE PROCESSING </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">GEOGRAPHICAL INFORMATION SYSTEMS - GIS</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">ADVANCED SOFTWARE ENGINEERING  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">INFORMATION SYSTEMS PROJECTS MANAGEMENT  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">SYSTEMS ANALYSIS AND DESIGN</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">PROJECT-1  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">PROJECT-2  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">TRAINING</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">MANAGEMENT INFORMATION SYSTEMS - MIS </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">INFORMATION SECURITY AND PRIVACY </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<button class="accordion">Elective Specialization Requirements </button>
+<div class="panel">
+  
+<button class="accordion2">DATA STRUCTURES-2  </button>
+<div class="panel2">
+ <table border="0" style="width: 100%;" cellspacing="0" cellpadding="0"><tbody>
+        <tr>
+      <td style="padding:3px;">
+        <center><img src="/images/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+      </td>
+      <td class="container">
+        <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Osama Alqam</a>
+        <div ><a href="Statistics Notebook - Osama Alqam.pdf" style="color: white;" class="overlay" download target="_blank">Open or Download file</a></div>
+      </td>
+    </tr>
+        <tr>
+      <td style="padding:3px;">
+        <center><img src="/images/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+      </td>
+      <td class="container">
+        <a href="#" class="image" style="padding: 5px;">PDF | Something useful</a>
+        <div class="overlay">Open or Download file</div>
+      </td>
+    </tr>
+        <tr>
+      <td style="padding:3px;">
+        <center><img src="/images/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+      </td>
+      <td class="container">
+        <a href="#" class="image" style="padding: 5px;">PDF | Something useful 222</a>
+        <div ><a href="aziz.jpg" style="color: white;" class="overlay" download target="_blank" >Open or Download file</a></div>
+      </td>
+    </tr> 
+      </tbody>
+    </table>
+</div>
+
+<button class="accordion2">THEORY OF COMPUTATION  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">NETWORK PROGRAMMING  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">VISUAL PROGRAMMING </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">NATURAL LANGUAGE PROCESSING  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">BIOINFORMATICS</button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">MACHINE LEARNING </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">DATA MINING  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">ADVANCED MULTIMEDIA  </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">INFORMATION SYSTEMS AUDIT AND CONTROLS </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">CERTIFIED SOFTWARE </button>
+<div class="panel2">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion2">SPECIAL TOPICS </button>
+<div class="panel2">
+  
+</div>
+
+<button class="accordion2">ENTERPRISE RESOURCE PLANNING SYSTEMS  - ERP </button>
+<div class="panel2">
  
-    <div class="column left">
-      
-    </div>
+</div>
+
+<button class="accordion2">WEB APPLICATION DEVELOPMENT - 2 </button>
+<div class="panel2">
+  
+</div>
+
+</div>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("actives2");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+var acc = document.getElementsByClassName("accordion2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("actives");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
     <div class="column right">
       <img src="/images/ITlogo.png" alt="Information Technology Logo" width="150px" height="160px"/>
@@ -240,7 +615,7 @@
 
 <br />
 <br />
-			<!--Footer menu with facebook and email links-->
+      <!--Footer menu with facebook and email links-->
 
   
     <div class="footer">
