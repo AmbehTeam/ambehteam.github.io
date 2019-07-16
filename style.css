@@ -32,7 +32,7 @@
         padding: 10px;
         border-top: 3px solid black;
         clear: both;
-    height: 140px;
+        height: 140px;
       }
     .active {
        background-color: #4CAF50;
