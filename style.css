@@ -23,15 +23,17 @@
       h2 , h5 {
         text-align: center;
       }
-
+    .content {
+      min-height: calc(100vh - 150px);
+  }
     .footer {
         background-color: #F1F1F1;
         text-align: center;
         padding: 10px;
-      border-top: 3px solid black;
-      clear: both;
+        border-top: 3px solid black;
+        clear: both;
+    height: 140px;
       }
-
     .active {
        background-color: #4CAF50;
         color: white;
