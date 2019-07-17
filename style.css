@@ -23,7 +23,8 @@
       h2 , h5 {
         text-align: center;
       }
-    
+    /* .content {
+      min-height: calc(100vh - 150px);  FIXED FOOTER IN THE BOTTOM */
   }
     .footer {
         background-color: #F1F1F1;
