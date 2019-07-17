@@ -1,11 +1,11 @@
       
     .header {
-      background-color: #F1F1F1;
-      text-align: center;
+        background-color: #F1F1F1;
+        text-align: center;
         padding: 10px;
         font-family: 'Cinzel Decorative', cursive;
         border-bottom: 3px solid black;
-      }
+        }
 
       body {
         font-family: 'Cinzel', serif;
@@ -19,14 +19,14 @@
       a {
       text-decoration: none;
       color: black;
-    }
+      }
       h2 , h5 {
         text-align: center;
       }
-    /* .content {
+      /* .content {
       min-height: calc(100vh - 150px);  FIXED FOOTER IN THE BOTTOM 
-  } */
-    .footer {
+      } */
+      .footer {
         background-color: #F1F1F1;
         text-align: center;
         padding: 10px;
@@ -34,7 +34,7 @@
         clear: both;
         height: 140px;
       }
-    .active {
+      .active {
        background-color: #4CAF50;
         color: white;
       }
