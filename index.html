@@ -226,48 +226,28 @@
 
     <div class="intro">
   
-    <script language="javascript">
-var delay=2000 //set delay in miliseconds
-var curindex=0
+    <div class="w3-content w3-section" style="max-width:1024px; border-radius: 8px;">
+  <div class="mySlides w3-animate-fading">
+  <div id="slideshow">
+  
+  </div>
+  </div>
+  <script>
+var myIndex = 0;
+carousel();
 
-var randomimages=new Array()
-
-  randomimages[0]="arts.jpg"
-  randomimages[1]="clocktower.jpg"
-  randomimages[2]="engineering.jpg"
-  randomimages[3]="ju.jpg"
-  randomimages[4]="jusign.jpg"
-  randomimages[5]="kasit.jpg"
-  randomimages[6]="kasit2.jpg"
-  randomimages[7]="night.jpg"
-  randomimages[8]="science.jpg"
-  randomimages[9]="snow.jpg"
-  randomimages[10]="UJ.jpg"
-
-var preload=new Array()
-
-for (n=0;n<randomimages.length;n++)
-{
-  preload[n]=new Image()
-  preload[n].src=randomimages[n]
+function carousel() {
+  var i;
+  var a1 = ['arts.jpg','clocktower.jpg','engineering.jpg','ju.jpg','jusign.jpg','kasit.jpg','kasit2.jpg','night.jpg','science.jpg','snow.jpg','UJ.jpg']
+    document.getElementById('slideshow').innerHTML = ("<img src=/images/slideshow/"+ a1[Math.floor(Math.random()*10)] + "\" width=\"100%\" height=\"500px\" style=\"border: 3px solid red; border-radius: 4px;\"/>");
+  for (i = 0; i < a1.length; i++) {
+    a1[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > a1.length) {myIndex = 1}    
+  a1[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000); // Change image every 9 seconds
 }
-
-document.write('<img name="defaultimage" src="/images/slideshow/'+randomimages[Math.floor(Math.random()*(randomimages.length))]+'" width="100%" height="500px" style="border: 3px solid red; border-radius: 4px;"/>')
-
-function rotateimage()
-{
-
-if (curindex==(tempindex=Math.floor(Math.random()*(randomimages.length)))){
-curindex=curindex==0? 1 : curindex-1
-}
-else
-curindex=tempindex
-
-  document.images.defaultimage.src=randomimages[curindex]
-}
-
-setInterval("rotateimage()",delay)
-
 </script>
 <br />
   <p>Ambeh Team is a website that provides students of the University of Jordan -in specific- and other univsersities -in general- with all their exam and studying needs such as Test Banks , PDFs , Videos and more. This helps them with their exams and makes it easier for them to gather whatever they need from only one website.</p> 
