@@ -176,7 +176,7 @@
   .actives2, .accordion:hover {
     background-color: #CCFFCC;
     color : black;    
-    text-shadow:0px 0px 0px black;
+    text-shadow:0px 0px 0px white;
   }
   .actives, .accordion2:hover {
     background-color: #007bff ; 
