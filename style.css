@@ -146,7 +146,7 @@
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 49%;
+    width: 49.5%;
     border: 1;
     border-color: silver;
     text-align: left;
@@ -154,7 +154,7 @@
     font-size: 20px;
     text-shadow:3px 2px 2px black;
     transition: max-height 0.4s ease-out;
-    margin-left: 1%;
+    margin-left: 0.5%;
     font-family: 'Cinzel', serif;
 
   }
@@ -184,19 +184,19 @@
     text-shadow:3px 2px 2px black;
   }
   .panel {
-   padding: 0 18px;
+   padding: 0 12px;
    background-color: #f1f1f1;
    max-height: 0;
    overflow: auto;
    transition: max-height 0.4s ease-out;
-   width: 49%;
-   margin-left: 1%;
+   width: 49.5%;
+   margin-left: 0.5%;
    font-size: 22px;
    font-family:  'Josefin Sans', sans-serif;
 
   }
   .panel2 {
-   padding: 0 18px;
+   padding: 0 12px;
    background-color: #f1f1f1;
    max-height: 0;
    overflow: auto;
