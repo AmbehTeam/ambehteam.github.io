@@ -13,34 +13,68 @@
 
 	</head>
   <style>
+     .accordion {
+      background-color:  #BA0020FF;
+      color: white;
+    margin-left: 25%;
+    }
+    
+    .accordion2 {
+      background-color: #EE2737FF;
+      color: black;
+   
+    }
+    
+    .actives2, .accordion:hover {
+      background-color: #EE2737FF;
+      color : black;    
+      text-shadow:0px 0px 0px black;
+    }
+    
+    .actives, .accordion2:hover {
+      background-color: #BA0020FF ; 
+      color: white;
+      text-shadow:3px 2px 2px black;
 
+      }
+    .panel {
+       background-color: #643E46FF;
+       color: white;
+     margin-left: 25%;
+      }
+      
+    .panel2 {
+       background-color: gray;
+       color: white;
+      }
+  
     .options:hover {
       color: #D32323;
       font-weight: bold;
       padding: 5px;
     }
     
-    .column.right {    /* Right column */
-            width: 28%;
-            float: right;
-            text-align: center;
-            position: relative;
-            font-size: 13px;
-            padding-top: 60px;
+   .column.right {    /* Right column */
+          width: 26.5%;
+          float: right;
+          text-align: center;
+          position: relative;
+          font-size: 13px;
+          padding-top: 10px;
 
         }
 
 
-      .column.left {  /* left column */
-           width: 70%;
-           float: left;
-           margin-left: 300px;
-           font-size: 24px;
-           font-family: 'Josefin Sans', sans-serif; 
-           margin-bottom: 45px;
-           margin-top: 60px;
+    .column.left {  /* left column */
+          width: 68%;
+          float: left;
+          margin-left: 5%;
+          font-size: 24px;
+          font-family: 'Josefin Sans', sans-serif; 
+          margin-bottom: 45px;
+          margin-top: 60px;
         }
-
+    
   </style>
   <body>
     
@@ -231,8 +265,8 @@
   	   </ul>
      </div>
 
-   
-      <table border="1" style="width: 40%; margin-left: 20%;" class="column left" cellspacing="0" cellpadding="0">
+    <div class="column left">
+      <table border="1" style="width: 65%; margin-left: 25%;"cellspacing="0" cellpadding="0">
           <caption style="padding: 5px;"><strong>Choose your Department :</strong></caption>
         <tbody>
           <tr><td style="padding: 5px;"><a href="/scientific/kasit/cs/cs.html" class="options">Computer Science</a></td></tr>
@@ -240,6 +274,107 @@
           <tr><td style="padding: 5px;"><a href="#" class="options">Business Information Technology</a></td></tr> 
         </tbody>
       </table>
+
+<br />
+  <button class="accordion" style="width: 65%;">Obligatory Faculty Requirements </button>
+
+  <div class="panel" style="float: left; clear: both;width: 65%;">
+  <br />
+  <button class="accordion2">Calculus I</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">DISCRETE MATHEMATICS</button>
+  <div class="panel2">
+   <table border="0" style="width: 100%;" cellspacing="0" cellpadding="0"><tbody>
+      <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Dr. Osama Alqam</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Notebook - Dr. Osama Alqam.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+        </td>
+      </tr>
+          <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Dr. Amal il Helo</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Notebook - Dr. Amal il Helo.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+        </td>
+      </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <button class="accordion2">DATA STRUCTURES-1</button>
+      <div class="panel2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+    <button class="accordion2">DOCUMENTATION AND ETHICS</button>
+      <div class="panel2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <button class="accordion2">INTRODUCTION TO DATABASE SYSTEMS </button>
+      <div class="panel2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <button class="accordion2">FUNDAMENTALS OF INFORMATION TECHNOLOGY</button>
+      <div class="panel2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <button class="accordion2">WEB APPLICATIONS DEVELOPMENT - 1 [Web 1]</button>
+      <div class="panel2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+    <button class="accordion2">COMPUTER SKILLS FOR SCIENTIFIC FACULTIES - [C++]</button>
+      <div class="panel2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <br />
+      </div>
+     
+      </div>
+     <script>
+
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("actives2");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      var acc = document.getElementsByClassName("accordion2");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("actives");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+
 
       <div class="column right">
         <img src="/images/logos/ITlogo.png" alt="Information Technology Logo" width="150px" height="160px"/>
