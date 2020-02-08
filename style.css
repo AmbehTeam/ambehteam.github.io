@@ -26,6 +26,7 @@
       /* .content {
       min-height: calc(100vh - 150px);  FIXED FOOTER IN THE BOTTOM 
       } */
+      
       .footer {
         background-color: #F1F1F1;
         text-align: center;
@@ -34,6 +35,14 @@
         clear: both;
         height: 140px;
       }
+
+      .footers:hover {
+      color: #D32323;
+      font-size: 16px;
+      padding: 1px;
+      font-weight: bold;
+    }
+
       .active {
        background-color: #4CAF50;
         color: white;
