@@ -1,36 +1,3 @@
-<!DOCTYPE html>
-<html  dir="ltr" lang="en">
-	<head>
-    
-		<meta charset="utf-8" />
-		<title>Home - Ambeh Team</title>
-    <link rel="icon" type="image/ico" href="/images/logos/ambehicon.png">
-    <link href="/normalize.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i" rel="stylesheet">
-    <link href="/style.css" type="text/css"rel="stylesheet" />
-
-	</head>
-  <style>
-    .intro {
-      text-align: center;
-      width: 80%;
-      margin-left: 10%;
-      margin-bottom: 5%;
-      font-weight: bold;
-      font-size: 24px;
-      font-family: 'Josefin Sans', sans-serif; 
-      background-color: #f1f1f1;
-      padding: 3%;
-    }
-    
-
-  </style>
-  
-  <body>
-    
       <div class="header">
   	   <img src="/images/logos/ambehbanner.png" alt="Ambeh Team's Logo">
       </div>
