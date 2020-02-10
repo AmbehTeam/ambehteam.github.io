@@ -51,11 +51,14 @@
         height: 140px;
       }
 
+      .footers {
+      font-weight:bold;
+    }
+
       .footers:hover {
       color: #D32323;
       font-size: 16px;
       padding: 1px;
-      font-weight: bold;
     }
 
       .active {
@@ -67,6 +70,23 @@
         float: center;
         display: inline-block;
       }
+
+    blockquote {
+        background-color: #f3f3f3;
+        border-left: 4px solid gray;
+        padding: 10px 30px;
+        margin: 0 0 20px;
+    }
+    
+    .options {
+        font-weight:bold;
+    }
+    .options:hover {
+        color: #D32323;
+        font-weight:bold;
+        padding: 5px;
+    }
+  
 /*------------------------------------------------------------------- */
 /*-----------------------Menu Bar------------------------------------ */
 
