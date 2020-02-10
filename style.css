@@ -1,3 +1,16 @@
+      html {
+        overflow: -moz-scrollbars-vertical; 
+        overflow-y: scroll;
+        line-height: 1.5;
+      }
+      
+      html, body {
+        font-size:medium;
+      }
+      
+      img {
+        vertical-align: baseline;
+      }
       
     .header {
         background-color: #F1F1F1;
@@ -5,7 +18,7 @@
         padding: 10px;
         font-family: 'Cinzel Decorative', cursive;
         border-bottom: 3px solid black;
-        }
+      }
 
       body {
         font-family: 'Cinzel', serif;
@@ -14,15 +27,17 @@
         min-height: 100%; 
         margin: 0;
         padding: 0;
-    
       }
+
       a {
-      text-decoration: none;
-      color: black;
+        text-decoration: none;
+        color: black;
       }
+
       h2 , h5 {
         text-align: center;
       }
+
       /* .content {
       min-height: calc(100vh - 150px);  FIXED FOOTER IN THE BOTTOM 
       } */
