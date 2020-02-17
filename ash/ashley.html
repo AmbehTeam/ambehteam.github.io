@@ -1,8 +1,46 @@
-<html>
-  <head>
-    <title> Ashley's Training Routine </title>
-    <script type="text/javaScript">
+<!DOCTYPE html>
+<html  dir="ltr" lang="en">
+	<head>
+    
+		<meta charset="utf-8" />
+		<title> Ashley's Training Routine </title>
+		<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i" rel="stylesheet">
 
+	<style>
+		table {
+		background: url(https://www.runescape.com/img/rs3/global/header_bg_set.jpg);
+		border-top: 1px solid #39444b;
+		}
+		body {
+		background: #071b25 url(https://www.runescape.com/img/rs3/background-main.jpg) repeat 0 0;
+		    color: #d7dbe1;
+		}
+		.button {
+			  background-color: #e1bb34;
+			  background: url(https://www.runescape.com/img/rs3/global/header_play.jpg) repeat-x 0 0;
+			  border: none;
+			  color: black;
+			  font-weight:bold;
+			  padding: 10px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 20px;
+			  margin-top: 8px;
+			  cursor: pointer;
+			  -webkit-transition-duration: 0.4s;
+			  transition-duration: 0.4s;
+			  width: 25%;
+			  font-family: cinzel decorative;
+			}
+		.button:hover {
+				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			}
+	</style>
+    <script type="text/javaScript">
+function myFunction() {
       var ex = [
                 "2 Minutes Plank",
                 "2 Minutes Wall sit",
@@ -33,13 +71,36 @@
                 ];
       var food = fd[Math.floor(Math.random()*2)];
       
-        document.write("Exercise 1 : " + exercise + "<br / >Exercise 2 : " + exercise2 + "<br /> " + "Food : " + food);
+        document.getElementById("demo").innerHTML = ("<table border='1' style='font-size:20px; width:500px; margin-left: 40%;table-layout: fixed;' cellspacing='0' cellpadding='10'><thead> <caption style='padding: 5px;font-size:24px;'><strong>Ashley's Gay Trainings </strong></caption></thead><tbody><tr><th>Exercise 1 : </th><td>" + exercise + "</td></tr><tr><th>Exercise 2 : </th><td>" + exercise2 + "</td></tr><tr><th> Food : </th><td>" + food + "</td></tr><tr style='background: transparent url(https://www.runescape.com/img/rs3/tabbedelement.png) repeat;'><th colspan='2'><button type='button' onclick='myFunction()' class='button'>Roll</button></th></tr></tbody>");
+		
+		}
     </script>
   </head>
 
   <body>
 
+	<table border='1' id="demo" style='font-size:20px; width:500px; margin-left: 40%;table-layout: fixed;' cellspacing='0' cellpadding='10'>
+		<thead>
+			<caption style='padding: 5px;font-size:24px;'><strong>Ashley's Gay Trainings </strong></caption>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Exercise 1 : </th>
+				<td> </td>
+			</tr>
+			<tr>
+				<th>Exercise 2 : </th>
+				<td> </td>
+			</tr>
+			<tr>
+				<th> Food : </th>
+				<td> </td>
+			</tr>
+			<tr style="background: transparent url(https://www.runescape.com/img/rs3/tabbedelement.png) repeat;">
+				<th colspan="2"><button type="button" onclick="myFunction()" class="button">Roll</button></th>
+			</tr>
+		</tbody>
+	
+	
   </body>
 </html>
-
-
