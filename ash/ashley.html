@@ -30,13 +30,21 @@
 			  font-size: 20px;
 			  margin-top: 8px;
 			  cursor: pointer;
-			  -webkit-transition-duration: 0.4s;
-			  transition-duration: 0.4s;
+			  -webkit-transition-duration: 0.2s;
+			  transition-duration: 0.2s;
 			  width: 25%;
 			  font-family: cinzel decorative;
 			}
 		.button:hover {
-				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+				box-shadow: 0 0px 5px 0 #e1bb34, 0 0px 5px 0 #e1bb34;
+			}
+			.title {
+				 padding: 5px;
+				 font-size:24px;
+				 background: url(https://www.runescape.com/img/rs3/global/header_play.jpg) repeat-x 0 0;
+				 color: black;
+				 font-family: cinzel decorative;
+				 font-weight: bold;
 			}
 	</style>
     <script type="text/javaScript">
@@ -71,7 +79,7 @@ function myFunction() {
                 ];
       var food = fd[Math.floor(Math.random()*2)];
       
-        document.getElementById("demo").innerHTML = ("<table border='1' style='font-size:20px; width:500px; margin-left: 40%;table-layout: fixed;' cellspacing='0' cellpadding='10'><thead> <caption style='padding: 5px;font-size:24px;'><strong>Ashley's Gay Trainings </strong></caption></thead><tbody><tr><th>Exercise 1 : </th><td>" + exercise + "</td></tr><tr><th>Exercise 2 : </th><td>" + exercise2 + "</td></tr><tr><th> Food : </th><td>" + food + "</td></tr><tr style='background: transparent url(https://www.runescape.com/img/rs3/tabbedelement.png) repeat;'><th colspan='2'><button type='button' onclick='myFunction()' class='button'>Roll</button></th></tr></tbody>");
+        document.getElementById("demo").innerHTML = ("<table border='1' style='font-size:20px; width:500px; margin-left: 40%;table-layout: fixed;' cellspacing='0' cellpadding='10'><thead> <caption class='title'><strong>Ashley's Fatass Trainings </strong></caption></thead><tbody><tr><th>Exercise 1 : </th><td>" + exercise + "</td></tr><tr><th>Exercise 2 : </th><td>" + exercise2 + "</td></tr><tr><th> Food : </th><td>" + food + "</td></tr><tr style='background: transparent url(https://www.runescape.com/img/rs3/tabbedelement.png) repeat;'><th colspan='2'><button type='button' onclick='myFunction()' class='button'>Roll</button></th></tr></tbody>");
 		
 		}
     </script>
@@ -79,9 +87,9 @@ function myFunction() {
 
   <body>
 
-	<table border='1' id="demo" style='font-size:20px; width:500px; margin-left: 35%; margin-top:15%; margin-top:30%' cellspacing='0' cellpadding='10'>
+	<table border='1' id="demo" style='font-size:20px; width:500px; margin-left: 35%; margin-top:15%; table-layout: fixed;' cellspacing='0' cellpadding='10'>
 		<thead>
-			<caption style='padding: 5px;font-size:24px;'><strong>Ashley's Gay Trainings </strong></caption>
+			<caption class="title"><strong>Ashley's Fatass Trainings </strong></caption>
 		</thead>
 		<tbody>
 			<tr>
