@@ -1,0 +1,213 @@
+	<!doctype html>
+	<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="de"><![endif]-->
+	<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="de"><![endif]-->
+	<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9" lang="de"><![endif]-->
+	<!--[if (IE 9)&!(IEMobile)]><html class="no-js lt-ie10" lang="de"><![endif]-->
+	<!--[if gt IE 9]><!--><!-- x --> <html class="no-js" lang="de"> <!--<![endif]-->
+	<head>
+		<title>Schatzjäger</title>
+		<meta name="description" content="Mit dem Schatzjäger-Minispiel könnt ihr eine ganze Reihe von nützlichen und seltenen Gegenständen freischalten."/>
+		<meta name="author" content="Jagex"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+		<link rel="dns-prefetch" href="https://ajax.googleapis.com/" />
+		<link rel="dns-prefetch" href="https://connect.facebook.net/" />
+    	<script src='js/c/rs3/modernizr_3_0_0_min-109.js'></script>
+    	<link href="css/c/fonts-116.css" rel="stylesheet" type="text/css" media="all" />
+    	<link href="css/c/components-116.css" rel="stylesheet" />
+		<link href="css/c/pagesal-116.css" rel="stylesheet" />
+		<link href="css/c/pagesmz-116.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/global/favicon.ico?1">
+		<link rel="apple-touch-icon" href="img/global/mobile.png?1">
+		<meta property="og:title" content="Schatzjäger" />
+		<meta property="og:site_name" content="RuneScape" />
+		<meta property="og:image" content="https://www.runescape.com/l=1/img/microsite/social-share-fb.jpg" />
+		<meta property="og:url" content="https://www.runescape.com/l=1treasure-hunter" />
+		<meta property="og:description" content="Mit dem Schatzjäger-Minispiel könnt ihr eine ganze Reihe von nützlichen und seltenen Gegenständen freischalten." />
+		<meta name="twitter:domain" content="RuneScape.com">
+		<meta name="twitter:url" content="https://www.runescape.com/l=1treasure-hunter">
+		<meta name="twitter:title" content="Schatzjäger">
+		<meta name="twitter:description" content="Mit dem Schatzjäger-Minispiel könnt ihr eine ganze Reihe von nützlichen und seltenen Gegenständen freischalten.">
+		<meta name="twitter:image:src" content="https://www.runescape.com/l=1/img/microsite/social-share.jpg">
+		<meta name="twitter:site" content="@RuneScape">
+		<meta name="google-site-verification" content="pUwl5KYHKSZ6tbbgsR2wYNv1kbVmsYral3iFmijHTWM" />
+	<script>
+	var _vis_opt_cookieDays = 1,
+	_vwo_code=(function(){
+	var account_id=54596,
+	settings_tolerance=2000,
+	library_tolerance=2500,
+	use_existing_jquery=false,
+	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+	</script>
+<meta name='twitter:card' content="summary">
+<meta name='twitter:url' content="https://www.runescape.com/l=1treasure-hunter">
+<meta name="twitter:title" content="Schatzjäger">
+<meta name='twitter:description' content="Mit dem Schatzjäger-Minispiel könnt ihr eine ganze Reihe von nützlichen und seltenen Gegenständen freischalten.">
+<link rel='canonical' href='https://www.runescape.com/l=1treasure-hunter' />
+<link rel='stylesheet' href='css/rs3/styleguide-116.css' />
+			<meta property="fb:app_id" content="174823375888281" />
+	</head>
+	<body id="info-template" class="info-template template de" itemscope itemtype="https://schema.org/WebPage">
+		<div class="stickyWrap">
+	<header class="header">
+		<div class="header__container">
+			<div class="header-top">
+				<ul class="header-top__right">
+					<li class="header-top__right-option"><span id="playerCount">0</span> online</li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://oldschool.runescape.com/l=1/" data-test='nav-oldschool'>Old School</a></li>
+                    <li class="header-top__right-option"><a class="header-top__right-link" href="https://payments.jagex.com/#/store/runescape/membership" data-test='nav-subscribe'>Mitglied werden</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="account_settings" data-test='nav-account'>Konto</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://support.runescape.com" target="_blank" data-test='nav-support'>Hilfe</a></li>
+					<li class="header-top__right-option">
+							<a class="header-top__right-link header-top__right-link--signin" id="header-login" href="https://secure.runescape.com/m=weblogin/l=1/loginform?theme=runescape&amp;mod=www&amp;ssl=1&amp;dest=treasure-hunter" data-test='nav-signin'>Login / Registrieren</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bg">
+			<div class="header__container">
+				<div class="header-second">
+					<div class="header-table">
+						<a class="header-second__logo" href="index.html">
+							<img class="header-second__logo-image" src="img/rs3/global/header_logo.png" title="RuneScape" alt="RuneScape" />
+						</a>
+						<nav class="main-nav" id="main-nav">
+							<ul class="main-nav__list">
+								<li class="main-nav__item main-nav__item--group main-nav__item--game">
+									<a class="main-nav__heading" data-test="rsnav-guide" href="game-info">Spielanleitung<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+
+
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-beginner" href="game-guide/beginners-guide">Anfänger-Info</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-skills" href="game-guide/skills">Fertigkeiten</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-combat" href="game-guide/combat">Kampf</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--news">
+									<a class="main-nav__heading" data-test="rsnav-news" href="https://secure.runescape.com/m=news/l=1/">Neues</a>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--community">
+									<a class="main-nav__heading" data-test="rsnav-community" href="community">Community<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-forums" href="https://secure.runescape.com/m=forum/l=1/forums">Forum</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-hiscores" href="https://secure.runescape.com/m=hiscore/l=1/">Bestenlisten</a></li>
+                                    	<li class="main-nav__group-item">
+												<a class="main-nav__group-item-link" data-test="rsnav-drop-log" href="http://services.runescape.com/m=adventurers-log/l=1/">Abenteurer-Logbuch</a>
+										</li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-exchange" href="http://services.runescape.com/m=itemdb_rs/l=1/">Große Markthalle</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-clans" href="http://services.runescape.com/m=clan-home/l=1/">Clans</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-power" href="http://services.runescape.com/m=poll/l=1/">Spieler an die Macht</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-recruit" href="http://services.runescape.com/m=friend-referral/l=1/">Empfehlungsprogramm</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--shop">
+									<a class="main-nav__heading" data-test="rsnav-shop" href="members_benefits">Shop<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-membe"><a class="main-nav__group-item-link" data-test="rsnav-drop-membership" href="members_benefits">Mitgliedschaft</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-treas"><a class="main-nav__group-item-link" data-test="rsnav-drop-treasure" href="treasure-hunter">Schatzjäger</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-bonds"><a class="main-nav__group-item-link" data-test="rsnav-drop-bonds" href="bonds">RuneScape-Bonds</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-solom"><a class="main-nav__group-item-link" data-test="rsnav-drop-solomon" href="solomons-store">Salomons Laden</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-runemetrics"><a class="main-nav__group-item-link" data-test="rsnav-drop-rmpro" href="runemetrics">RuneMetrics Pro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-loyal"><a class="main-nav__group-item-link" data-test="rsnav-drop-loyalty" href="loyalty">Loyalitätsprogramm</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-cards"><a class="main-nav__group-item-link" data-test="rsnav-drop-cards" href="store_locator">Prepaidkarten</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-merch"><a class="main-nav__group-item-link" data-test="rsnav-drop-merch" href="http://runescape.backstreetmerch.com" target="_blank">Merchandise</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--download">
+									<a class="main-nav__heading" data-test="rsnav-download" href="download">Download</a>
+								</li>
+									<li class="main-nav__item main-nav__item--try">
+										<a id="try" class="main-nav__heading" data-test="rsnav-try" href="https://secure.runescape.com/m=account-creation/l=1/create_account?theme=runescape">Kostenlos ausprobieren</a>
+									</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<div class="banner">
+	<div class="inner">
+		<img src="http://cdn.runescape.com/assets/img/external/treasure-hunter/THbackground.jpg" alt='banner' />
+	</div>
+</div>
+<div class='contents'>
+	<main class='main'>
+		<h1 class='title'><span>Schatzjäger</span></h1>
+		<ul class='breadcrumb' itemprop='breadcrumb'>
+	<li><a href='index.html' itemprop='url'>Startseite</a></li>
+			<li>Schatzjäger</li>
+		</ul>
+		<section class='info-template-overview container-divider' style='background: url(https://cdn.runescape.com/assets/img/external/treasure-hunter/THtop-DE.jpg) no-repeat;    '>
+			<div class='info-template-overview__copy' style='background: transparent'><div style="height: 100px;margin-top: 286px; margin-left:147px; margin-right:183px; overflow: hidden;"><div class="button" style="float: right;margin: 0;"><div class="button__inner"><a class="button__link" href="https://payments.jagex.com/packagegroupredirect.ws?value=rsspins"><span class="button__text">Weiter</span></a></div></div></div></div>
+		</section>
+		<section class='styleguide-defaults'><h2 class="double-title"><span>Wie kann ich</span> spielen?</h2>  <div class="container-divider container-divider--wider">  <div class="promo-options"><article class="promo-options__box"><img src="http://cdn.runescape.com/assets/img/external/treasure-hunter/THget-keys-DE.jpg" alt="Schlüssel erhalten" title="Schlüssel erhalten"/><h3 class="promo-options__title">Schlüssel erhalten</h3><p>Mit Schlüsseln könnt ihr die Truhen beim Schatzjäger öffnen - diese enthalten Belohnungen!</p></article><article class="promo-options__box"><img src="http://cdn.runescape.com/assets/img/external/treasure-hunter/THchests.jpg" alt="Zum Schatzjäger" title="Zum Schatzjäger"/><h3 class="promo-options__title">Truhen öffnen</h3><p>Jede Truhe enthält Gegenstände, die gewöhnlich bis selten sein können und von unterschiedlichem Wert sind.</p></article><article class="promo-options__box"><img src="http://cdn.runescape.com/assets/img/external/treasure-hunter/THrewards-DE.jpg" alt="Holt euch die Belohnungen" title="Holt euch die Belohnungen"/><h3 class="promo-options__title">Belohnt werden!</h3><p>Holt euch mächtige Gegenstände, Goldmünzen, EP-Lampen und vieles mehr!</p></article></div>  <div style="height: 100px;margin-top: 20px;overflow: hidden;"><div class="button" style="float: right;margin: 0;"><div class="button__inner"><a class="button__link" href="https://payments.jagex.com/packagegroupredirect.ws?value=rsspins"><span class="button__text">Weiter</span></a></div></div></div></div><div><h2 class="double-title"><span>Wie bekomme ich</span>Schlüssel?</h2></div>  <p class="paragraph-break-line paragraph-break-line--left paragraph-break-line--wider">Um am Schatzjäger teilnehmen zu können, benötigt ihr Schlüssel - jeder Schlüssel garantiert euch eine Chance auf nützliche Gegenstände und Beute. Glücklicherweise könnt ihr euch die Schlüssel auf viele verschiedene Arten holen!</p><div class="paragraph-break-line paragraph-break-line--left paragraph-break-line--wider" style="margin-top: 20px;"><article class="item" style="width:64%"><figure class="item-plate"><img class="item-plate__image" src="http://cdn.runescape.com/assets/img/external/treasure-hunter/TH-1-key.png" alt="Symbol" title="Symbol"/></figure><div class="item__meta"><h3 class="item__title">Verdiente Schlüssel</h3><p class="item__copy" style="font-size: 1.3em;">Ihr könnt die Schlüssel durch Aktivitäten im Spiel erhalten, wie beispielsweise als Beute von Monstern oder als Abenteuerbelohnungen.</p></div></article></div><div class="paragraph-break-line paragraph-break-line--left paragraph-break-line--wider" style="margin-top: 20px;padding-bottom: 0px;"><article class="item" style="width:64%"><figure class="item-plate"><img class="item-plate__image" src="http://cdn.runescape.com/assets/img/external/treasure-hunter/TH-2-keys.png" alt="Symbol" title="Symbol"/></figure><div class="item__meta"><h3 class="item__title">Tägliche Schlüssel</h3><p class="item__copy" style="font-size: 1.3em;">Jeder Spieler der kostenlosen Version erhält einen Gratisschlüssel pro Tag, Mitglieder erhalten sogar zwei Gratisschlüssel pro Tag!</p></div></article></div><div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"><article class="item" style="width:64%"><figure class="item-plate"><img class="item-plate__image" src="http://cdn.runescape.com/assets/img/external/treasure-hunter/TH-3-keys.png" alt="Symbol" title="Symbol"/></figure><div class="item__meta"><h3 class="item__title">Gekaufte Schlüssel</h3><p class="item__copy" style="font-size: 1.3em;">Ihr könnt euch jederzeit mehr Schlüssel kaufen, die es in verschiedenen Paketen gibt.</p></div></article></div><section style="overflow: hidden;"><h3 style="color: #d7dbe1;float: left;font-size: 1.7em;margin-top: 14px;">Das solltet ihr euch nicht entgehen lassen. Holt euch eure Schlüssel und macht bei der Schatzjagd mit!</h3><div class="button" style="float: right;margin: 0;"><div class="button__inner"><a class="button__link" href="https://payments.jagex.com/packagegroupredirect.ws?value=rsspins"><span class="button__text">Weiter</span></a></div></div></section></section>
+	</main>
+</div>
+		</div>
+		<footer class='footer'>
+			<div class='footer__inner'>
+				<a href='https://www.jagex.com/l=1/g=runescape/' class='footer__jagex ext' data-title="footer_jagex">Jagex</a>
+				<div class='footer__paragraph'>
+					<p>Diese Seite und ihr gesamter Inhalt unterliegen dem Urheberrecht von Jagex Ltd. &copy; 1999 - 2020 Jagex Ltd.</p>
+					<p>220 Science Park, Cambridge, CB4 0WA, Großbritannien</p>
+					<p>Die Benutzung dieser Website unterliegt unseren <a id='footerTermsLink' href='https://www.jagex.com/l=1/g=runescape/terms' class='ext footer__paragraph__link' data-title='footer_terms'>allgemeinen Geschäftsbedingungen,</a> und <a id='footerPrivacyLink' href='https://www.jagex.com/l=1/g=runescape/terms/privacy' class='ext footer__paragraph__link' data-title='footer_privacy'>den Datenschutzgrundsätzen</a>.</p>
+					<p><a id='footerRulesLink' href='game-guide/rules' class='ext footer__paragraph__link footer__paragraph__link--rules'>Regeln von RuneScape</a><a id='footerCookiesLink' href='https://www.jagex.com/l=1/g=runescape/terms/cookies' class='ext footer__paragraph__link' data-title='footer_changecookie'>Cookie-Einstellungen ändern</a></p>
+				</div>
+				<div class='language' id='footerSelectLanguage'>
+					<div class='language__inner'>
+						<ul class='language__list'>
+							<li class='language__list__item--de language__list__item'><span class='language__item__span'>Deutsch</span></li>
+									<li class='language__list__item--en language__list__item'><a class='language__item__link' href='../index.html?set_lang=0'>English</a></li>
+									<li class='language__list__item--fr language__list__item'><a class='language__item__link' href='../l=2/index.html?set_lang=2'>Franï¿½ais</a></li>
+									<li class='language__list__item--pt language__list__item'><a class='language__item__link' href='../l=3/index.html?set_lang=3'>Portuguï¿½s (BR)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script>
+		var isMemb, loggedIn, savePromoBoxes, pageLocation;
+			isMemb = -1;
+			loggedIn = -1;
+		savePromoBoxes = 'https://secure.runescape.com/m=website-data/l=1/updatePromoBoxes.json';
+		pageLocation = 'https://www.runescape.com/l=1/treasure-hunter';
+		document.domain = 'runescape.com';
+		var baseURL = 'https://www.runescape.com/l=1',
+			currentLangId = 1,
+			RS3 = RS3 || {};
+			RS3.imgRoot = 'https://www.runescape.com/l=1/img/rs3',
+			RS3.websiteDataUrl = 'https://secure.runescape.com/m=website-data/l=1',
+			RS3.newsUrl= 'https://secure.runescape.com/m=news/l=1',
+			RS3.webloginUrl= 'https://secure.runescape.com/m=weblogin/l=1', RS3.TRACKING_PLAY_BUTTON_CLICKED = 9200,
+			RS3.TRACKING_HOME_PAGE_LOADED = 9000;
+		var JXGLOBAL = {};
+		JXGLOBAL.client = [{
+    		'platform': 'Windows_x86',
+    		'filename': 'runescape.msi',
+    		'version': '1.4.3',
+    		'size': '23'
+    	},{
+    		'platform': 'OSX_x86',
+    		'filename': 'runescape.dmg',
+    		'version': '1.4.3',
+    		'size': '1'
+	    }];
+
+		var RESPONSIVE = RESPONSIVE || {};
+		RESPONSIVE.constant = RESPONSIVE.constant || {};
+			RESPONSIVE.constant.user = {
+				language: 1,
+				isLoggedIn: 0
+			};
+	</script>
+		<script src="js/c/responsive/vendor-129.js"></script>
+	<script src="js/rs3/plugins-109.js"></script>
+	<script src='js/jagex_global-101.js'></script>
+	<script src="js/rs3/gtm-109.js"></script>
+	<script src="js/c/rs3/functions-109.js" async defer></script>
+		</body>
+	</html>

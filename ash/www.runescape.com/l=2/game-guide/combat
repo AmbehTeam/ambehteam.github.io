@@ -1,0 +1,213 @@
+	<!doctype html>
+	<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="fr"><![endif]-->
+	<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="fr"><![endif]-->
+	<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9" lang="fr"><![endif]-->
+	<!--[if (IE 9)&!(IEMobile)]><html class="no-js lt-ie10" lang="fr"><![endif]-->
+	<!--[if gt IE 9]><!--><!-- x --> <html class="no-js" lang="fr"> <!--<![endif]-->
+	<head>
+		<title>Combat</title>
+		<meta name="description" content="Combat dans RuneScape"/>
+		<meta name="author" content="Jagex"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+		<link rel="dns-prefetch" href="https://ajax.googleapis.com/" />
+		<link rel="dns-prefetch" href="https://connect.facebook.net/" />
+    	<script src='../js/c/rs3/modernizr_3_0_0_min-109.js'></script>
+    	<link href="../css/c/fonts-116.css" rel="stylesheet" type="text/css" media="all" />
+    	<link href="../css/c/components-116.css" rel="stylesheet" />
+		<link href="../css/c/pagesal-116.css" rel="stylesheet" />
+		<link href="../css/c/pagesmz-116.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="../img/global/favicon.ico?1">
+		<link rel="apple-touch-icon" href="../img/global/mobile.png?1">
+		<meta property="og:title" content="Combat" />
+		<meta property="og:site_name" content="RuneScape" />
+		<meta property="og:image" content="https://www.runescape.com/l=2/img/microsite/social-share-fb.jpg" />
+		<meta property="og:url" content="https://www.runescape.com/l=2/game-guide/combat" />
+		<meta property="og:description" content="Combat dans RuneScape" />
+		<meta name="twitter:domain" content="RuneScape.com">
+		<meta name="twitter:url" content="https://www.runescape.com/l=2/game-guide/combat">
+		<meta name="twitter:title" content="Combat">
+		<meta name="twitter:description" content="Combat dans RuneScape">
+		<meta name="twitter:image:src" content="https://www.runescape.com/l=2/img/microsite/social-share.jpg">
+		<meta name="twitter:site" content="@RuneScape">
+		<meta name="google-site-verification" content="pUwl5KYHKSZ6tbbgsR2wYNv1kbVmsYral3iFmijHTWM" />
+	<script>
+	var _vis_opt_cookieDays = 1,
+	_vwo_code=(function(){
+	var account_id=54596,
+	settings_tolerance=2000,
+	library_tolerance=2500,
+	use_existing_jquery=false,
+	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+	</script>
+<meta name='twitter:card' content="summary">
+<meta name='twitter:url' content="https://www.runescape.com/l=2/game-guide/combat">
+<meta name="twitter:title" content="Combat">
+<meta name='twitter:description' content="Combat dans RuneScape">
+<link rel='canonical' href='combat' />
+<link rel='stylesheet' href='../css/rs3/styleguide-116.css' />
+			<meta property="fb:app_id" content="174823375888281" />
+	</head>
+	<body id="info-template" class="info-template template fr" itemscope itemtype="https://schema.org/WebPage">
+		<div class="stickyWrap">
+	<header class="header">
+		<div class="header__container">
+			<div class="header-top">
+				<ul class="header-top__right">
+					<li class="header-top__right-option"><span id="playerCount">0</span> joueurs en ligne</li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://oldschool.runescape.com/l=2/" data-test='nav-oldschool'>Old School</a></li>
+                    <li class="header-top__right-option"><a class="header-top__right-link" href="https://payments.jagex.com/#/store/runescape/membership" data-test='nav-subscribe'>S'abonner</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="../account_settings" data-test='nav-account'>Compte</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://support.runescape.com" target="_blank" data-test='nav-support'>Aide</a></li>
+					<li class="header-top__right-option">
+							<a class="header-top__right-link header-top__right-link--signin" id="header-login" href="https://secure.runescape.com/m=weblogin/l=2/loginform?theme=runescape&amp;mod=www&amp;ssl=1&amp;dest=game-guide%2Fcombat" data-test='nav-signin'>Se connecter / Créer un compte</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bg">
+			<div class="header__container">
+				<div class="header-second">
+					<div class="header-table">
+						<a class="header-second__logo" href="../index.html">
+							<img class="header-second__logo-image" src="../img/rs3/global/header_logo.png" title="RuneScape" alt="RuneScape" />
+						</a>
+						<nav class="main-nav" id="main-nav">
+							<ul class="main-nav__list">
+								<li class="main-nav__item main-nav__item--group main-nav__item--game">
+									<a class="main-nav__heading" data-test="rsnav-guide" href="../game-info">Guide du jeu<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+
+
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-beginner" href="beginners-guide">Guide du débutant</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-skills" href="skills">Compétences</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-combat" href="combat">Combat</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--news">
+									<a class="main-nav__heading" data-test="rsnav-news" href="https://secure.runescape.com/m=news/l=2/">Nouveautés</a>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--community">
+									<a class="main-nav__heading" data-test="rsnav-community" href="../community">Communauté<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-forums" href="https://secure.runescape.com/m=forum/l=2/forums">Forums</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-hiscores" href="https://secure.runescape.com/m=hiscore/l=2/">Classement</a></li>
+                                    	<li class="main-nav__group-item">
+												<a class="main-nav__group-item-link" data-test="rsnav-drop-log" href="http://services.runescape.com/m=adventurers-log/l=2/">Carnet d'aventurier</a>
+										</li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-exchange" href="http://services.runescape.com/m=itemdb_rs/l=2/">Grand Marché</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-clans" href="http://services.runescape.com/m=clan-home/l=2/">Clans</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-power" href="http://services.runescape.com/m=poll/l=2/">Le pouvoir aux joueurs</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-recruit" href="http://services.runescape.com/m=friend-referral/l=2/">Parrainage d'ami</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--shop">
+									<a class="main-nav__heading" data-test="rsnav-shop" href="../members_benefits">Boutique<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-membe"><a class="main-nav__group-item-link" data-test="rsnav-drop-membership" href="../members_benefits">Abonnement</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-treas"><a class="main-nav__group-item-link" data-test="rsnav-drop-treasure" href="../treasure-hunter">Chasse aux trésors</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-bonds"><a class="main-nav__group-item-link" data-test="rsnav-drop-bonds" href="../bonds">Bons d'échange</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-solom"><a class="main-nav__group-item-link" data-test="rsnav-drop-solomon" href="../solomons-store">Boutique de Salomon</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-runemetrics"><a class="main-nav__group-item-link" data-test="rsnav-drop-rmpro" href="../runemetrics">RuneMetrics Pro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-loyal"><a class="main-nav__group-item-link" data-test="rsnav-drop-loyalty" href="../loyalty">Programme de fidélité</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-cards"><a class="main-nav__group-item-link" data-test="rsnav-drop-cards" href="../store_locator">Cartes prépayées</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-merch"><a class="main-nav__group-item-link" data-test="rsnav-drop-merch" href="http://runescape.backstreetmerch.com" target="_blank">Boutique RS</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--download">
+									<a class="main-nav__heading" data-test="rsnav-download" href="../download">Téléchargements</a>
+								</li>
+									<li class="main-nav__item main-nav__item--try">
+										<a id="try" class="main-nav__heading" data-test="rsnav-try" href="https://secure.runescape.com/m=account-creation/l=2/create_account?theme=runescape">Essayer gratuitement</a>
+									</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<div class="banner">
+	<div class="inner">
+		<img src="../../img/rs3/banners/generic.jpg" alt='banner' />
+	</div>
+</div>
+<div class='contents'>
+	<main class='main'>
+		<h1 class='title'><span>Combat</span></h1>
+		<ul class='breadcrumb' itemprop='breadcrumb'>
+	<li><a href='../index.html' itemprop='url'>Accueil</a></li>
+			<li>Combat</li>
+		</ul>
+		<section class='info-template-overview container-divider' style='background: url(https://cdn.runescape.com/assets/img/external/cms/game-guide/combat.jpg) no-repeat;  '>
+			<div class='info-template-overview__copy' style='background: transparent'><h2 class="double-title" style="font-size:3em;"><span>Choisissez votre </span>combat</h2>  <p style="margin-bottom:15px;">Le combat est un élément à la fois passionnant et stimulant de RuneScape, qui vous offre un tas de différentes options et capacités. Des milliers de combinaisons d'armures et d'armes sont à votre disposition, et les meilleurs joueurs sont ceux qui savent bien préparer leurs combats.</p>  <p>Les joueurs peuvent affronter des centaines de PNJ différents au fil de leurs aventures, ou choisir de combattre d'autres joueurs dans des zones dédiées au PvP.</p>  <p>Lisez la suite pour découvrir les raisons qui font du combat un élément primordial de l'expérience de jeu dans RuneScape.</p></div>
+		</section>
+		<section class='styleguide-defaults'><div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"> <h2 class="double-title" style="font-size:3em;"><span>Deux différents </span>systèmes de combat</h2> <p style="margin-bottom:15px;">Le tout premier choix que vous devrez faire dans RuneScape sera lequel des deux systèmes de combat utiliser.</p> </div> <div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"> <h2>Évolution du combat</h2> <div style="float:right;border: 2px solid black;outline: 1px solid #62686c;box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.7);background: rgba(0,0,0,0.7);margin-left:20px;"><img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/eoc.jpg" /></div> <p style="margin-bottom:15px;">L'évolution du combat est un système de combat dynamique et moderne qui se base sur l'utilisation de capacités déclenchées par un clic. Avec une version entièrement manuelle ou une version en partie automatisée, ce système offre des combats intenses et visuellement impressionnants. Il est adapté aux joueurs de tout niveau, et il est même conseillé pour les combats de boss les plus difficiles.</p> <p style="margin-bottom:15px;">Il existe trois types de capacités :</p> <ul style="font-size: 1.5em;list-style-type: disc;padding-left: 20px;line-height: 1.5em; padding-bottom: 15px;"> <li><strong>Capacités basiques</strong> - Ces capacités rapides à utiliser ont généralement pour effet de causer des dégâts, et permettent de générer de l'adrénaline. Cette adrénaline est nécessaire pour utiliser des capacités plus avancées et plus puissantes : les capacités élaborées et les capacités ultimes.</li> <li><strong>Capacités élaborées</strong> - Ces capacités infligent plus de dégâts que les capacités basiques, mais elles absorbent aussi 15 % de votre adrénaline lorsque vous les déclenchez. Pour utiliser les capacités élaborées, il vous faut disposer de 50 % d'adrénaline.</li> <li><strong>Capacités ultimes</strong> - Ces capacités sont les plus puissantes. La plupart d'entre elles draineront l'intégralité de votre adrénaline, sans en générer.</li> </ul> <p style="margin-bottom:15px;">Elles sont en général débloquées lors de la pratique des compétences de combat, mais certaines peuvent être obtenues d'autres manières : dans le butin de créatures puissantes, ou en accomplissant des quêtes, par exemple.</p> <p style="margin-bottom:15px;">Vous pouvez également choisir de déclencher vos capacités automatiquement en choisissant le mode de combat <strong>Révolution</strong>.</p> </div> <div class="container-divider container-divider--wider" style="margin-top: 20px;padding-bottom: 40px;"> <h3>Combat à l'ancienne</h3> <div style="float:right;border: 2px solid black;outline: 1px solid #62686c;box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.7);background: rgba(0,0,0,0.7);margin-left:20px;"><img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/legacy.jpg" /></div> <p style="margin-bottom:15px;">Les joueurs nostalgiques ont la possibilité de choisir le mode de combat à l'ancienne, hérité du passé de RuneScape. Ce système est similaire à l'ancien système de combat, avec cependant quelques légères améliorations appréciées des joueurs les plus anciens de RuneScape.</p> <p style="margin-bottom:15px;">Bien que ce système puisse être considéré plus simple, les joueurs qui choisissent de l'utiliser ne sont pas pénalisés. Le combat est moins compliqué : il suffit de cliquer sur un ennemi pour l'attaquer, et de laisser votre personnage faire le reste.</p> <p style="margin-bottom:15px;">Les interfaces du mode de combat à l'ancienne ne sont pas les mêmes que celles utilisées avec le système de l'évolution du combat. Vous verrez différentes options s'afficher lorsque vous déciderez de la façon d'attaquer un ennemi.</p> </div> <div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"> <h2 class="double-title" style="font-size:3em;"><span>Trois différents </span>styles de combat</h2> <div style="float:right;border: 2px solid black;outline: 1px solid #62686c;box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.7);background: rgba(0,0,0,0.7);margin-left:20px;"><img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/melee.png" /> <img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/magic.png" /> <img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/ranged.png" /></div> <p style="margin-bottom:15px;">Il y a trois styles de combat dans RuneScape : Combat au corps à corps, Combat à distance, et Magie. </p> <p style="margin-bottom:15px;">Il est toujours important de prendre en compte les faiblesses de vos ennemis avant de déterminer le style de combat que vous allez utiliser pour l'attaquer.</p> <p style="margin-bottom:15px;">Certaines armures sont moins résistantes contre certains types d'armes, et vous aurez alors un avantage significatif en tenant compte de cet élément.</p> </div> <div class="container-divider container-divider--wider" style="margin-top: 20px;padding-bottom: 40px;"> <h3>Triangle de combat</h3> <img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/combat-triangle.png" style="float:right;width: 300px;" /> <p style="margin-bottom:15px;">Le triangle de combat permet d'expliquer la façon dont les trois styles de combat sont reliés entre eux :</p> <ul style="font-size: 1.5em;list-style-type: disc;padding-left: 20px;line-height: 1.5em; padding-bottom: 15px;"> <li>Les attaques à distance sont plus efficaces contre les adversaires utilisant la Magie, mais pas contre ceux utilisant le Combat au corps à corps.</li> <li>Les attaques magiques sont plus efficaces contre les adversaires utilisant le Combat au corps à corps, mais pas contre ceux utilisant le Combat à distance.</li> <li>Les attaques rapprochées sont plus efficaces contre les adversaires utilisant le Combat à distance, mais pas contre ceux utilisant la Magie.</li> </ul> <p style="margin-bottom:15px;">En exploitant les points faibles spécifiques d'un ennemi, les chances de réussite de vos attaques augmenteront encore plus. Ainsi, les créatures ayant les carreaux pour point faible seront touchées plus souvent et subiront plus de dégâts si vous utilisez une arme lançant des carreaux plutôt qu'une autre arme de Combat à distance. Ce type de faiblesses spécifiques n'entrent pas en ligne de compte en combat PvP, où seul le style de combat général utilisé importe.</p> <p style="margin-bottom:15px;">Le système de l'évolution du combat renforce les bonus et les pénalités liés au triangle de combat. En mode de combat à l'ancienne, ces bonus et pénalités sont un peu moins sévères.</p> <p style="margin-bottom:15px;">Avec le système de l'évolution du combat, vous pourrez voir des informations sur les points faibles de votre ennemi dans la fenêtre des infos de la cible, située au-dessus de sa tête.</p> <p style="margin-bottom:15px;">Avec le système de combat à l'ancienne, vous ne verrez ni repère indiquant votre cible, ni fenêtre d'informations.</p> </div> <div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"> <h2 class="double-title" style="font-size:3em;"><span>Fonctionnement du </span>combat</h2> </div> <div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"> <h3>Points de vie</h3> <div style="float:right;border: 2px solid black;outline: 1px solid #62686c;box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.7);background: rgba(0,0,0,0.7);margin-left:20px;"><img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/lifepoints.jpg" /></div> <p style="margin-bottom:15px;">Les points de vie sont représentés par la barre verte et rouge affichée au-dessus de votre tête pendant les combats. Lorsque votre nombre de points de vie atteint 0, vous mourez. Pour éviter la mort, vous pouvez vous guérir pendant un combat en ingérant de la nourriture.</p> <p style="margin-bottom:15px;">Si vous vous rendez compte que vous perdez un combat, vous pouvez fuir en cliquant sur un endroit au sol. Si vous décidez de battre en retraite, il est conseillé de ne pas vous arrêter, car les créatures vous poursuivront et continueront à vous attaquer. Si vous vous éloignez suffisamment, elles finiront par abandonner.</p> </div> <div class="container-divider container-divider--wider" style="margin-top: 20px;padding-bottom: 40px;"> <h3>Mort</h3> <p style="margin-bottom:15px;">Giélinor est un endroit dangereux, et il est possible que vous mouriez suite à un combat.</p> <p style="margin-bottom:15px;">Si cela se produit, vous réapparaîtrez dans la maison de la Faucheuse, qui vous offrira la possibilité de récupérer vos objets :</p> <ul style="font-size: 1.5em;list-style-type: disc;padding-left: 20px;line-height: 1.5em; padding-bottom: 15px; display:inline-block;"> <li>Les trois objets transportés qui ont le plus de valeur seront automatiquement conservés.</li> <li>Certains objets, tels que les objets de quêtes, seront conservés séparément.</li> <li>Certains autres objets pourront être récupérés contre une certaine somme de pièces d'or.</li> <li>Ce coût en pièces d'or peut être réduit en sacrifiant des objets dont vous ne voulez plus.</li> </ul> <p style="margin-bottom:15px;">La Faucheuse conservera vos objets pour une durée de 24 heures maximum, ou jusqu'à votre prochaine mort. Après cela, ils seront supprimés.</p> <p style="margin-bottom:15px;">Il vous est également possible de retourner à l'emplacement de votre mort pour récupérer dans votre borne funéraire les objets qui n'auront pas été conservés automatiquement. Sachez cependant que vous n'aurez qu'un certain laps de temps pour y arriver. Si vous n'atteignez pas votre borne dans le temps imparti (ou si vous mourez à nouveau), vos objets seront perdus à jamais !</p> <p style="margin-bottom:15px;">En quittant la maison de la Faucheuse, vous pourrez choisir entre plusieurs points de réapparition. Vous aurez toujours la possibilité de retourner à Lumbridge, mais la dernière ville que vous aurez visitée avant votre mort fera peut-être partie de la liste, comme certains autres lieux débloqués au cours de quêtes.</p> </div> <div class="container-thin-break container-thin-break--wider" style="margin-top: 20px;padding-bottom: 20px;"> <h2 class="double-title" style="font-size:3em;"><span>Équipement de </span>combat</h2> </div> <div> <h3>Aperçu</h3> <div style="text-align: center;margin-top: 20px;margin-bottom: 20px;"><img src="https://cdn.runescape.com/assets/img/external/cms/game-guide/combat/loadout.jpg" /></div> <p style="margin-bottom:15px;">L'interface Aperçu est accessible via l'interface Personnage, que vous pouvez ouvrir en appuyant sur la touche F1 de votre clavier.</p> <p style="margin-bottom:15px;">Cette interface vous permet de voir les éléments se trouvant dans chacun des emplacements de votre équipement. Vous pourrez aussi y voir le nombre de dégâts que vous pouvez infliger, et que vous pouvez détourner, dans différentes situations. </p> </div></section>
+	</main>
+</div>
+		</div>
+		<footer class='footer'>
+			<div class='footer__inner'>
+				<a href='https://www.jagex.com/l=2/g=runescape/' class='footer__jagex ext' data-title="footer_jagex">Jagex</a>
+				<div class='footer__paragraph'>
+					<p>Copyright &copy; 1999 - 2020 Jagex Ltd.</p>
+					<p>220 Science Park, Cambridge, CB4 0WA, Royaume-Uni</p>
+					<p>L'utilisation de ce site Internet est sous réserve de l'acceptation de nos <a id='footerTermsLink' href='https://www.jagex.com/l=2/g=runescape/terms' class='ext footer__paragraph__link' data-title='footer_terms'>Conditions d'utilisation</a> et <a id='footerPrivacyLink' href='https://www.jagex.com/l=2/g=runescape/terms/privacy' class='ext footer__paragraph__link' data-title='footer_privacy'>notre Charte de confidentialité</a>.</p>
+					<p><a id='footerRulesLink' href='rules' class='ext footer__paragraph__link footer__paragraph__link--rules'>Règles de RuneScape</a><a id='footerCookiesLink' href='https://www.jagex.com/l=2/g=runescape/terms/cookies' class='ext footer__paragraph__link' data-title='footer_changecookie'>Changer les paramètres de cookie.</a></p>
+				</div>
+				<div class='language' id='footerSelectLanguage'>
+					<div class='language__inner'>
+						<ul class='language__list'>
+							<li class='language__list__item--fr language__list__item'><span class='language__item__span'>Français</span></li>
+									<li class='language__list__item--en language__list__item'><a class='language__item__link' href='../../index.html?set_lang=0'>English</a></li>
+									<li class='language__list__item--de language__list__item'><a class='language__item__link' href='../../l=1/index.html?set_lang=1'>Deutsch</a></li>
+									<li class='language__list__item--pt language__list__item'><a class='language__item__link' href='../../l=3/index.html?set_lang=3'>Portuguï¿½s (BR)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script>
+		var isMemb, loggedIn, savePromoBoxes, pageLocation;
+			isMemb = -1;
+			loggedIn = -1;
+		savePromoBoxes = 'https://secure.runescape.com/m=website-data/l=2/updatePromoBoxes.json';
+		pageLocation = 'https://www.runescape.com/l=2/game-guide%2Fcombat';
+		document.domain = 'runescape.com';
+		var baseURL = 'https://www.runescape.com/l=2',
+			currentLangId = 2,
+			RS3 = RS3 || {};
+			RS3.imgRoot = 'https://www.runescape.com/l=2/img/rs3',
+			RS3.websiteDataUrl = 'https://secure.runescape.com/m=website-data/l=2',
+			RS3.newsUrl= 'https://secure.runescape.com/m=news/l=2',
+			RS3.webloginUrl= 'https://secure.runescape.com/m=weblogin/l=2', RS3.TRACKING_PLAY_BUTTON_CLICKED = 9200,
+			RS3.TRACKING_HOME_PAGE_LOADED = 9000;
+		var JXGLOBAL = {};
+		JXGLOBAL.client = [{
+    		'platform': 'Windows_x86',
+    		'filename': 'runescape.msi',
+    		'version': '1.4.3',
+    		'size': '23'
+    	},{
+    		'platform': 'OSX_x86',
+    		'filename': 'runescape.dmg',
+    		'version': '1.4.3',
+    		'size': '1'
+	    }];
+
+		var RESPONSIVE = RESPONSIVE || {};
+		RESPONSIVE.constant = RESPONSIVE.constant || {};
+			RESPONSIVE.constant.user = {
+				language: 2,
+				isLoggedIn: 0
+			};
+	</script>
+		<script src="../js/c/responsive/vendor-129.js"></script>
+	<script src="../js/rs3/plugins-109.js"></script>
+	<script src='../js/jagex_global-101.js'></script>
+	<script src="../js/rs3/gtm-109.js"></script>
+	<script src="../js/c/rs3/functions-109.js" async defer></script>
+		</body>
+	</html>

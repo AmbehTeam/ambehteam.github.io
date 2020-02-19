@@ -1,0 +1,520 @@
+	<!doctype html>
+	<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="pt"><![endif]-->
+	<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="pt"><![endif]-->
+	<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9" lang="pt"><![endif]-->
+	<!--[if (IE 9)&!(IEMobile)]><html class="no-js lt-ie10" lang="pt"><![endif]-->
+	<!--[if gt IE 9]><!--><!-- x --> <html class="no-js" lang="pt"> <!--<![endif]-->
+	<head>
+		<title>Benefícios de Assinantes - RuneScape Jogo de Aventura Medieval MMO</title>
+		<meta name="description" content="Assine o RuneScape hoje mesmo e tenha acesso a mais de 219 histórias incríveis, novas habilidades, jogue 45 minijogos emocionantes, construa sua própria casa, e muito mais!"/>
+		<meta name="author" content="Jagex"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+		<link rel="dns-prefetch" href="https://ajax.googleapis.com/" />
+		<link rel="dns-prefetch" href="https://connect.facebook.net/" />
+    	<script src='js/c/rs3/modernizr_3_0_0_min-109.js'></script>
+    	<link href="css/c/fonts-116.css" rel="stylesheet" type="text/css" media="all" />
+    	<link href="css/c/components-116.css" rel="stylesheet" />
+		<link href="css/c/pagesal-116.css" rel="stylesheet" />
+		<link href="css/c/pagesmz-116.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/global/favicon.ico?1">
+		<link rel="apple-touch-icon" href="img/global/mobile.png?1">
+		<meta property="og:title" content="Benefícios de Assinantes - RuneScape Jogo de Aventura Medieval MMO" />
+		<meta property="og:site_name" content="RuneScape" />
+		<meta property="og:image" content="https://www.runescape.com/l=3/img/microsite/social-share-fb.jpg" />
+		<meta property="og:url" content="https://www.runescape.com/l=3/members_benefits" />
+		<meta property="og:description" content="Assine o RuneScape hoje mesmo e tenha acesso a mais de 219 histórias incríveis, novas habilidades, jogue 45 minijogos emocionantes, construa sua própria casa, e muito mais!" />
+		<meta name="twitter:domain" content="RuneScape.com">
+		<meta name="twitter:url" content="https://www.runescape.com/l=3/members_benefits">
+		<meta name="twitter:title" content="Benefícios de Assinantes - RuneScape Jogo de Aventura Medieval MMO">
+		<meta name="twitter:description" content="Assine o RuneScape hoje mesmo e tenha acesso a mais de 219 histórias incríveis, novas habilidades, jogue 45 minijogos emocionantes, construa sua própria casa, e muito mais!">
+		<meta name="twitter:image:src" content="https://www.runescape.com/l=3/img/microsite/social-share.jpg">
+		<meta name="twitter:site" content="@RuneScape">
+		<meta name="google-site-verification" content="pUwl5KYHKSZ6tbbgsR2wYNv1kbVmsYral3iFmijHTWM" />
+	<script>
+	var _vis_opt_cookieDays = 1,
+	_vwo_code=(function(){
+	var account_id=54596,
+	settings_tolerance=2000,
+	library_tolerance=2500,
+	use_existing_jquery=false,
+	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+	</script>
+<link rel='canonical' href='members_benefits' />
+			<meta property="fb:app_id" content="174823375888281" />
+	</head>
+	<body id="membersBenefits" class="membersBenefits pt" itemscope itemtype="https://schema.org/WebPage">
+		<div class="stickyWrap">
+	<header class="header">
+		<div class="header__container">
+			<div class="header-top">
+				<ul class="header-top__right">
+					<li class="header-top__right-option"><span id="playerCount">0</span> On-line</li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://oldschool.runescape.com/l=3/" data-test='nav-oldschool'>Old School</a></li>
+                    <li class="header-top__right-option"><a class="header-top__right-link" href="https://payments.jagex.com/#/store/runescape/membership" data-test='nav-subscribe'>Assinar</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="account_settings" data-test='nav-account'>Conta</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://support.runescape.com" target="_blank" data-test='nav-support'>Suporte</a></li>
+					<li class="header-top__right-option">
+							<a class="header-top__right-link header-top__right-link--signin" id="header-login" href="https://secure.runescape.com/m=weblogin/l=3/loginform?theme=runescape&amp;mod=www&amp;ssl=1&amp;dest=members_benefits" data-test='nav-signin'>Entrar / Criar Conta</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bg">
+			<div class="header__container">
+				<div class="header-second">
+					<div class="header-table">
+						<a class="header-second__logo" href="index.html">
+							<img class="header-second__logo-image" src="img/rs3/global/header_logo.png" title="RuneScape" alt="RuneScape" />
+						</a>
+						<nav class="main-nav" id="main-nav">
+							<ul class="main-nav__list">
+								<li class="main-nav__item main-nav__item--group main-nav__item--game">
+									<a class="main-nav__heading" data-test="rsnav-guide" href="game-info">Guia do Jogo<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+
+
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-beginner" href="game-guide/beginners-guide">Primeiros Passos</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-skills" href="game-guide/skills">Habilidades</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-combat" href="game-guide/combat">Combate</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--news">
+									<a class="main-nav__heading" data-test="rsnav-news" href="https://secure.runescape.com/m=news/l=3/">Notícias</a>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--community">
+									<a class="main-nav__heading" data-test="rsnav-community" href="community">Comunidade<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-forums" href="https://secure.runescape.com/m=forum/l=3/forums">Fórum</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-hiscores" href="https://secure.runescape.com/m=hiscore/l=3/">Recordes</a></li>
+                                    	<li class="main-nav__group-item">
+												<a class="main-nav__group-item-link" data-test="rsnav-drop-log" href="http://services.runescape.com/m=adventurers-log/l=3/">Diário de Aventuras</a>
+										</li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-exchange" href="http://services.runescape.com/m=itemdb_rs/l=3/">Mercado Geral</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-clans" href="http://services.runescape.com/m=clan-home/l=3/">Clãs</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-power" href="http://services.runescape.com/m=poll/l=3/">Poder aos Jogadores</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-recruit" href="http://services.runescape.com/m=friend-referral/l=3/">Indique um Amigo</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--shop">
+									<a class="main-nav__heading" data-test="rsnav-shop" href="members_benefits">Loja<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-membe"><a class="main-nav__group-item-link" data-test="rsnav-drop-membership" href="members_benefits">Assinatura</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-treas"><a class="main-nav__group-item-link" data-test="rsnav-drop-treasure" href="treasure-hunter">Arcas do Tesouro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-bonds"><a class="main-nav__group-item-link" data-test="rsnav-drop-bonds" href="bonds">Notas</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-solom"><a class="main-nav__group-item-link" data-test="rsnav-drop-solomon" href="solomons-store">Shopping do Salomão</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-runemetrics"><a class="main-nav__group-item-link" data-test="rsnav-drop-rmpro" href="runemetrics">RuneMetrics Pro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-loyal"><a class="main-nav__group-item-link" data-test="rsnav-drop-loyalty" href="loyalty">Programa de Lealdade</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-cards"><a class="main-nav__group-item-link" data-test="rsnav-drop-cards" href="store_locator">Cartões Pré-Pagos</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-merch"><a class="main-nav__group-item-link" data-test="rsnav-drop-merch" href="http://runescape.backstreetmerch.com" target="_blank">Mercadorias</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--download">
+									<a class="main-nav__heading" data-test="rsnav-download" href="download">Baixar</a>
+								</li>
+									<li class="main-nav__item main-nav__item--try">
+										<a id="try" class="main-nav__heading" data-test="rsnav-try" href="https://secure.runescape.com/m=account-creation/l=3/create_account?theme=runescape">Jogue Grátis</a>
+									</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="inner">
+			<img src="img/rs3/banners/generic.jpg" alt='RuneScape Landscape' />
+		</div>
+	</div>
+<div class='contents'>
+	<main>
+	<h1 class="title"><span>Vantagens para Assinantes</span></h1>
+	<ul class="breadcrumb" itemprop="breadcrumb">
+	<li><a href='index.html' itemprop='url'>Página Principal</a></li>
+			<li>Vantagens para Assinantes</li>
+	</ul>
+		<div class='population'>
+            <div><span>90%</span> dos jogadores on-line neste momento são membros!</div>
+        </div>
+	        <div class='pricing'>
+	        		<article class='price'>
+	        			<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs1m' class='buyNow buyNowPackage'>
+	        				<h3><span>1</span>Mês</h3>
+	        				<div class='price'>
+                                    <p class='price__per-month price__per-month--single'>USD 10,99</p>
+	        				</div>
+	        			</a>
+	<div class="btnWrap buyNowPackage">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs1m"><span>Continuar</span></a>
+		</div>
+	</div>
+	        		</article>
+	        		<article class='price gold'>
+	        			<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs3m' class='buyNow buyNowPackage'>
+	        				<h3><span>3</span>Meses</h3>
+	        				<div class='price'>
+                                        <p class='price__per-month'>USD 10,00</p>
+                                        <p class='price__sub-text'>Por Mês</p>
+                                            <p class='price__full'>USD 29,99 A cada 3 Meses</p>
+	        				</div>
+	        			</a>
+	<div class="btnWrap buyNowPackage">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs3m"><span>Continuar</span></a>
+		</div>
+	</div>
+	        		</article>
+	        		<article class='price'>
+	        			<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs12m' class='buyNow buyNowPackage'>
+	        				<h3><span>12</span>Meses</h3>
+	        				<div class='price'>
+                                        <p class='price__per-month'>USD 8,34</p>
+                                        <p class='price__sub-text'>Por Mês</p>
+                                            <p class='price__full'>USD 99,99 Pagamento único</p>
+	        				</div>
+	        			</a>
+	<div class="btnWrap buyNowPackage">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs12m"><span>Continuar</span></a>
+		</div>
+	</div>
+	        		</article>
+	        	<article class='price bond-offer'>
+	        		<a href='bonds' class='buyNow buyNowPackage'>
+	        			<h3><span>14 Dias</span> com Notas</h3>
+	        				<div class='price'>
+	        					<p class='pricing'>Utilizando sua riqueza<span> no Jogo</span></p>
+	        				</div>
+	        			</a>
+	<div class="btnWrap noLogin">
+		<div class="btn">
+			<a href="bonds"><span>Continuar</span></a>
+		</div>
+	</div>
+	        	</article>
+	        </div>
+        <section>
+	        <h2>Benefícios para todos os assinantes</h2>
+	        <p>Junte-se à nossa comunidade de membros e ganhe acesso a uma variedade enorme de benefícios e conteúdos exclusivos. Mais de 184 missões para membros, 10 habilidades formidáveis, 38 minijogos incríveis e muito, muito mais! <strong>Clique nas sessões abaixo para mais detalhes. Clique no (X) para fechar.</strong></p>
+	    </section>
+	    <div class='hexBoxes'>
+            <div class='deco'>
+	            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+	        </div>
+            <div class='corner'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+	        </div>
+	        <ul id='membersBenefitsHex'>
+	        	<li class="quests">
+                    <div class="hexPanel" data-tracking="10"><p>Mais de 184 <span>Missões</span></p></div>
+                    <div class="hexContent">
+                        <h3>Mais de 184 missões exclusivas para membros</h3>
+                        <p>Com 6 vezes mais conteúdos a sua disposição, como assinante você tem acesso a todas as histórias, aventuras e personalidades do RuneScape. Descubra os mistérios de Guilenor e desbloqueie inúmeras armas, armaduras e equipamentos exclusivos para membros.</p>
+	<div class="btnWrap buyNow">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Comprar Assinatura</span></a>
+		</div>
+	</div>
+                        <a class="close"><img src="img/rs3/members_benefits/close.png" alt="Fechar" title="Fechar" /></a>
+                    </div>
+                </li>
+                <li class="skills">
+                    <div class="hexPanel" data-tracking="11"><p>Domine mais <span>10 Habilidades</span></p></div>
+                    <div class="hexContent">
+                        <h3>10 habilidades exclusivas para treinar</h3>
+                        <p>Torne-se um herói completo e domine as habilidades exclusivas para membros: Agilidade, Herbologia, Roubo, Extermínio, Agricultura, Construção, Caça, Evocação, Divinação e Invenção. Aprimore-se nessas habilidades e abra caminho para novas aventuras incríveis!</p>
+	<div class="btnWrap buyNow">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Comprar Assinatura</span></a>
+		</div>
+	</div>
+                        <a class="close"><img src="img/rs3/members_benefits/close.png" alt="Fechar"/></a>
+                    </div>
+                </li>
+                <li class="minigames">
+                    <div class="hexPanel" data-tracking="12"><p>Exclusivos <span>Minijogos</span></p></div>
+                    <div class="hexContent">
+                        <h3>38 minijogos só para membros</h3>
+                        <p>Junte-se a seus amigos para defender-se de uma emboscada de monstros em Controle de Praga ou para proteger sua bandeira em Guerra das Cidadelas. Enfrente o calor do deserto na Pirâmide de Agilidade, aprenda poderosos Feitiços Divinos na Arena dos Magos e muito mais! </p>
+	<div class="btnWrap buyNow">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Comprar Assinatura</span></a>
+		</div>
+	</div>
+                        <a class="close"><img src="img/rs3/members_benefits/close.png" alt="Fechar"/></a>
+                    </div>
+                </li>
+                <li class="home">
+                    <div class="hexPanel" data-tracking="13"><p><span>Construa você mesmo </span>sua casa e seu porto</p></div>
+                    <div class="hexContent">
+                        <h3>Construa você mesmo sua casa e seu porto</h3>
+                        <p>Somente como membro, você pode projetar sua própria casa, adicionar cômodos e móveis, armazenar seus objetos e consertar armaduras ou então se tornar chefe de um porto, fazer melhorias em suas instalações e tripular seus navios para explorar locais distantes e voltar com tesouros exóticos.</p>
+	<div class="btnWrap buyNow">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Comprar Assinatura</span></a>
+		</div>
+	</div>
+                        <a class="close"><img src="img/rs3/members_benefits/close.png" alt="Fechar"/></a>
+                    </div>
+                </li>
+                <li class="loyalty">
+                    <div class="hexPanel" data-tracking="14"><p><span>Programa de Lealdade </span>Exclusivo para membros</p></div>
+                    <div class="hexContent">
+                        <h3>Programa de Lealdade</h3>
+                        <p>Quanto mais tempo você mantiver a sua assinatura, mais Pontos de Lealdade vai ganhar! Gaste seus pontos no Shopping do Salomão em mais de 200 objetos diferentes, que vão desde Roupas e Ações a Animações, Teleportes e muito mais!</p>
+	<div class="btnWrap buyNow">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Comprar Assinatura</span></a>
+		</div>
+	</div>
+                        <a class="close"><img src="img/rs3/members_benefits/close.png" alt="Fechar"/></a>
+                    </div>
+                </li>
+                <li class="worlds">
+                    <div class="hexPanel" data-tracking="15"><p><span>Um mundo 3 vezes maior </span>para explorar</p></div>
+                    <div class="hexContent">
+                        <h3>Um mundo 3 vezes maior</h3>
+                        <p>Todas as áreas de Guilenor acessíveis para serem descobertas por você. Desbloqueie e explore perigosos reinos novos: desbrave o deserto de Al-Kharid, encare os ventos congelantes da Província Fremennik, enfrente os exércitos da Masmorra da Guerra dos Deuses e muito mais. Um vasto mundo lhe aguarda!</p>
+	<div class="btnWrap buyNow">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Comprar Assinatura</span></a>
+		</div>
+	</div>
+                        <a class="close"><img src="img/rs3/members_benefits/close.png" alt="Fechar"/></a>
+                    </div>
+                </li>
+	        </ul>
+	    </div>
+        <article class="howTo">
+            <h3>Como se tornar membro</h3>
+            <p>Entrar para o exclusivo mundo dos membros do RuneScape é fácil! Aceitamos todos os principais cartões de crédito e débito, além de outros métodos de pagamento seguros, como PayPal, boleto bancário e muito mais. Cartões Pré-Pagos estão disponíveis nos <a href='store_locator'>revendedores autorizados</a>&nbsp;e são uma ótima forma de presentear amigos.</p>
+            <p>Por uma pequena taxa de assinatura mensal, você terá acesso a tudo listado aqui. Se preferir, você pode aproveitar um de nossos pacotes com desconto. Adquira um pacote de assinatura de 12 meses e economize mais de 25%! Assine o RuneScape hoje mesmo e torne-se o herói que você está destinado a ser!</p>
+	<div class="btnWrap howToBtn">
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Continuar</span></a>
+		</div>
+	</div>
+	        <h4 class="paymentOptions">Opções de pagamento:</h4>
+	        <div class="cardIcons">
+	        	<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs'><img title="VISA" src='img/rs3/members_benefits/payment-options_visa.png' alt="VISA" /></a>
+	        	<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs'><img title="MasterCard" src='img/rs3/members_benefits/payment-options_mastercard.png' alt="MasterCard" /></a>
+	        	<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs'><img title="American Express" src='img/rs3/members_benefits/payment-options_amex.png' alt="American Express" /></a>
+	        	<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs'><img title="PayPal" src='img/rs3/members_benefits/payment-options_paypal.png' alt="PayPal" /></a>
+	        	<a href='store_locator'><img title="Cartões Pré-pagos" src='img/rs3/members_benefits/payment-options_gamecard.png' alt="Cartões Pré-pagos" /></a>
+	        	<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs'><img title="SMS" src='img/rs3/members_benefits/payment-options_sms.png' alt="SMS" /></a>
+	        	<a href='https://payments.jagex.com/packagegroupredirect.ws?value=rs' title="e mais">e mais</a>
+	        </div>
+			<a class='payBonds' href='bonds'>Ou pague jogando com as Notas</a>
+        </article>
+        <div class="benefits" id="all_benefits_table">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Acesso Gratuito</th>
+                    <th>Membros</th>
+                </tr>
+                <tr>
+                    <td>Missões</td>
+                    <td>35</td>
+                    <td>219+</td>
+                </tr>
+                <tr>
+                    <td>Habilidades</td>
+                    <td>17</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Minijogos</td>
+                    <td>7</td>
+                    <td>45+</td>
+                </tr>
+                <tr>
+                    <td>Chaves das Arcas do Tesouro/Dia</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>10% de Desconto no Shopping do Salomão</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td>Acesso a Armaduras e Armas</td>
+                    <td>Limitado</td>
+                    <td>Completo</td>
+                </tr>
+                <tr>
+                    <td>Espaço no Banco</td>
+                    <td>103</td>
+                    <td>571+</td>
+                </tr>
+                <tr>
+                    <td>Personalização de Avatar</td>
+                    <td>Limitado</td>
+                    <td>Completo</td>
+                </tr>
+                <tr>
+                    <td>Acesso ao Mundo do Jogo</td>
+                    <td>Limitado</td>
+                    <td>Completo</td>
+                </tr>
+                <tr>
+                    <td>Programa de Lealdade</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td class="bullet">Auras</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td class="bullet">Fantasias</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td class="bullet">Ações</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td class="bullet">Títulos</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td class="bullet">Opções de Recolorir</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td>Mudança de Nome do Personagem</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td>Fortalezas do Clã</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td>Espaços no Mercado Geral</td>
+                    <td>3</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Projeto de Obra Habitacional</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td>Capas de Habilidade</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+                <tr>
+                    <td>Transporte e Navegação</td>
+                    <td>Limitado</td>
+                    <td>Completo</td>
+                </tr>
+                <tr>
+                    <td>Suporte ao Cliente</td>
+                    <td>Sim</td>
+                    <td>Prioritário</td>
+                </tr>
+                <tr>
+                    <td>Gráficos em Tela Cheia</td>
+                    <td><img src='img/rs3/members_benefits/cross.png' alt="Não"/></td>
+                    <td><img src='img/rs3/members_benefits/tick.png' alt="Sim"/></td>
+                </tr>
+            </table>
+            <div class="advantage">
+                <p>Assine já para aproveitar todos esses grandes benefícios</p>
+	<div class="btnWrap " id='buyNowBottom'>
+		<div class="btn">
+			<a href="https://payments.jagex.com/packagegroupredirect.ws?value=rs"><span>Continuar</span></a>
+		</div>
+	</div>
+            </div>
+        </div>
+	</main>
+</div>
+<script type='text/javascript'>
+		var visitorReady = false;
+    var hexPanelTrackingPixel=7000;
+</script>
+		</div>
+		<footer class='footer'>
+			<div class='footer__inner'>
+				<a href='https://www.jagex.com/l=3/g=runescape/' class='footer__jagex ext' data-title="footer_jagex">Jagex</a>
+				<div class='footer__paragraph'>
+					<p>Todos os direitos reservados sobre este site e seu conteúdo &copy; 1999 - 2020 Jagex Ltd.</p>
+					<p>220 Science Park, Cambridge, CB4 0WA, Reino Unido</p>
+					<p>O uso deste site está sujeito a nossos <a id='footerTermsLink' href='https://www.jagex.com/l=3/g=runescape/terms' class='ext footer__paragraph__link' data-title='footer_terms'>Termos e Condições</a> e <a id='footerPrivacyLink' href='https://www.jagex.com/l=3/g=runescape/terms/privacy' class='ext footer__paragraph__link' data-title='footer_privacy'>Política de Privacidade</a>.</p>
+					<p><a id='footerRulesLink' href='game-guide/rules' class='ext footer__paragraph__link footer__paragraph__link--rules'>Regras do RuneScape</a><a id='footerCookiesLink' href='https://www.jagex.com/l=3/g=runescape/terms/cookies' class='ext footer__paragraph__link' data-title='footer_changecookie'>Mudar Configurações de Cookies</a></p>
+				</div>
+				<div class='language' id='footerSelectLanguage'>
+					<div class='language__inner'>
+						<ul class='language__list'>
+							<li class='language__list__item--pt language__list__item'><span class='language__item__span'>Português</span></li>
+									<li class='language__list__item--en language__list__item'><a class='language__item__link' href='../index.html?set_lang=0'>English</a></li>
+									<li class='language__list__item--de language__list__item'><a class='language__item__link' href='../l=1/index.html?set_lang=1'>Deutsch</a></li>
+									<li class='language__list__item--fr language__list__item'><a class='language__item__link' href='../l=2/index.html?set_lang=2'>Franï¿½ais</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script>
+		var isMemb, loggedIn, savePromoBoxes, pageLocation;
+			isMemb = -1;
+			loggedIn = -1;
+		savePromoBoxes = 'https://secure.runescape.com/m=website-data/l=3/updatePromoBoxes.json';
+		pageLocation = 'https://www.runescape.com/l=3/members_benefits';
+		document.domain = 'runescape.com';
+		var baseURL = 'https://www.runescape.com/l=3',
+			currentLangId = 3,
+			RS3 = RS3 || {};
+			RS3.imgRoot = 'https://www.runescape.com/l=3/img/rs3',
+			RS3.websiteDataUrl = 'https://secure.runescape.com/m=website-data/l=3',
+			RS3.newsUrl= 'https://secure.runescape.com/m=news/l=3',
+			RS3.webloginUrl= 'https://secure.runescape.com/m=weblogin/l=3', RS3.TRACKING_PLAY_BUTTON_CLICKED = 9200,
+			RS3.TRACKING_HOME_PAGE_LOADED = 9000;
+		var JXGLOBAL = {};
+		JXGLOBAL.client = [{
+    		'platform': 'Windows_x86',
+    		'filename': 'runescape.msi',
+    		'version': '1.4.3',
+    		'size': '23'
+    	},{
+    		'platform': 'OSX_x86',
+    		'filename': 'runescape.dmg',
+    		'version': '1.4.3',
+    		'size': '1'
+	    }];
+
+		var RESPONSIVE = RESPONSIVE || {};
+		RESPONSIVE.constant = RESPONSIVE.constant || {};
+			RESPONSIVE.constant.user = {
+				language: 3,
+				isLoggedIn: 0
+			};
+	</script>
+		<script src="js/c/responsive/vendor-129.js"></script>
+	<script src="js/rs3/plugins-109.js"></script>
+	<script src='js/jagex_global-101.js'></script>
+	<script src="js/rs3/gtm-109.js"></script>
+	<script src="js/c/rs3/functions-109.js" async defer></script>
+		</body>
+	</html>

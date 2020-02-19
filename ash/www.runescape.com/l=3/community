@@ -1,0 +1,540 @@
+	<!doctype html>
+	<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="pt"><![endif]-->
+	<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="pt"><![endif]-->
+	<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9" lang="pt"><![endif]-->
+	<!--[if (IE 9)&!(IEMobile)]><html class="no-js lt-ie10" lang="pt"><![endif]-->
+	<!--[if gt IE 9]><!--><!-- x --> <html class="no-js" lang="pt"> <!--<![endif]-->
+	<head>
+		<title>Comunidade On-line do RuneScape - Fóruns, Notícias, Eventos e muito mais</title>
+		<meta name="description" content="Entre na comunidade global do RuneScape ainda hoje. Encontre eventos do jogo, as últimas notícias, e participe das discussões no fórum do RuneScape."/>
+		<meta name="author" content="Jagex"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+		<link rel="dns-prefetch" href="https://ajax.googleapis.com/" />
+		<link rel="dns-prefetch" href="https://connect.facebook.net/" />
+    	<script src='js/c/rs3/modernizr_3_0_0_min-109.js'></script>
+    	<link href="css/c/fonts-116.css" rel="stylesheet" type="text/css" media="all" />
+    	<link href="css/c/components-116.css" rel="stylesheet" />
+		<link href="css/c/pagesal-116.css" rel="stylesheet" />
+		<link href="css/c/pagesmz-116.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/global/favicon.ico?1">
+		<link rel="apple-touch-icon" href="img/global/mobile.png?1">
+		<meta property="og:title" content="Comunidade On-line do RuneScape - Fóruns, Notícias, Eventos e muito mais" />
+		<meta property="og:site_name" content="RuneScape" />
+		<meta property="og:image" content="https://www.runescape.com/l=3/img/microsite/social-share-fb.jpg" />
+		<meta property="og:url" content="https://www.runescape.com/l=3/community" />
+		<meta property="og:description" content="Entre na comunidade global do RuneScape ainda hoje. Encontre eventos do jogo, as últimas notícias, e participe das discussões no fórum do RuneScape." />
+		<meta name="twitter:domain" content="RuneScape.com">
+		<meta name="twitter:url" content="https://www.runescape.com/l=3/community">
+		<meta name="twitter:title" content="Comunidade On-line do RuneScape - Fóruns, Notícias, Eventos e muito mais">
+		<meta name="twitter:description" content="Entre na comunidade global do RuneScape ainda hoje. Encontre eventos do jogo, as últimas notícias, e participe das discussões no fórum do RuneScape.">
+		<meta name="twitter:image:src" content="https://www.runescape.com/l=3/img/microsite/social-share.jpg">
+		<meta name="twitter:site" content="@RuneScape">
+		<meta name="google-site-verification" content="pUwl5KYHKSZ6tbbgsR2wYNv1kbVmsYral3iFmijHTWM" />
+	<script>
+	var _vis_opt_cookieDays = 1,
+	_vwo_code=(function(){
+	var account_id=54596,
+	settings_tolerance=2000,
+	library_tolerance=2500,
+	use_existing_jquery=false,
+	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+	</script>
+<link rel='canonical' href="community" />
+			<meta property="fb:app_id" content="174823375888281" />
+	</head>
+	<body id="home" class="home pt" itemscope itemtype="https://schema.org/WebPage">
+		<div class="stickyWrap">
+	<header class="header">
+		<div class="header__container">
+			<div class="header-top">
+				<ul class="header-top__right">
+					<li class="header-top__right-option"><span id="playerCount">0</span> On-line</li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://oldschool.runescape.com/l=3/" data-test='nav-oldschool'>Old School</a></li>
+                    <li class="header-top__right-option"><a class="header-top__right-link" href="https://payments.jagex.com/#/store/runescape/membership" data-test='nav-subscribe'>Assinar</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="account_settings" data-test='nav-account'>Conta</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://support.runescape.com" target="_blank" data-test='nav-support'>Suporte</a></li>
+					<li class="header-top__right-option">
+							<a class="header-top__right-link header-top__right-link--signin" id="header-login" href="https://secure.runescape.com/m=weblogin/l=3/loginform?theme=runescape&amp;mod=www&amp;ssl=1&amp;dest=community" data-test='nav-signin'>Entrar / Criar Conta</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bg">
+			<div class="header__container">
+				<div class="header-second">
+					<div class="header-table">
+						<a class="header-second__logo" href="index.html">
+							<img class="header-second__logo-image" src="img/rs3/global/header_logo.png" title="RuneScape" alt="RuneScape" />
+						</a>
+						<nav class="main-nav" id="main-nav">
+							<ul class="main-nav__list">
+								<li class="main-nav__item main-nav__item--group main-nav__item--game">
+									<a class="main-nav__heading" data-test="rsnav-guide" href="game-info">Guia do Jogo<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+
+
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-beginner" href="game-guide/beginners-guide">Primeiros Passos</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-skills" href="game-guide/skills">Habilidades</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-combat" href="game-guide/combat">Combate</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--news">
+									<a class="main-nav__heading" data-test="rsnav-news" href="https://secure.runescape.com/m=news/l=3/">Notícias</a>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--community">
+									<a class="main-nav__heading" data-test="rsnav-community" href="community">Comunidade<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-forums" href="https://secure.runescape.com/m=forum/l=3/forums">Fórum</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-hiscores" href="https://secure.runescape.com/m=hiscore/l=3/">Recordes</a></li>
+                                    	<li class="main-nav__group-item">
+												<a class="main-nav__group-item-link" data-test="rsnav-drop-log" href="http://services.runescape.com/m=adventurers-log/l=3/">Diário de Aventuras</a>
+										</li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-exchange" href="http://services.runescape.com/m=itemdb_rs/l=3/">Mercado Geral</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-clans" href="http://services.runescape.com/m=clan-home/l=3/">Clãs</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-power" href="http://services.runescape.com/m=poll/l=3/">Poder aos Jogadores</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-recruit" href="http://services.runescape.com/m=friend-referral/l=3/">Indique um Amigo</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--shop">
+									<a class="main-nav__heading" data-test="rsnav-shop" href="members_benefits">Loja<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-membe"><a class="main-nav__group-item-link" data-test="rsnav-drop-membership" href="members_benefits">Assinatura</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-treas"><a class="main-nav__group-item-link" data-test="rsnav-drop-treasure" href="treasure-hunter">Arcas do Tesouro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-bonds"><a class="main-nav__group-item-link" data-test="rsnav-drop-bonds" href="bonds">Notas</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-solom"><a class="main-nav__group-item-link" data-test="rsnav-drop-solomon" href="solomons-store">Shopping do Salomão</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-runemetrics"><a class="main-nav__group-item-link" data-test="rsnav-drop-rmpro" href="runemetrics">RuneMetrics Pro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-loyal"><a class="main-nav__group-item-link" data-test="rsnav-drop-loyalty" href="loyalty">Programa de Lealdade</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-cards"><a class="main-nav__group-item-link" data-test="rsnav-drop-cards" href="store_locator">Cartões Pré-Pagos</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-merch"><a class="main-nav__group-item-link" data-test="rsnav-drop-merch" href="http://runescape.backstreetmerch.com" target="_blank">Mercadorias</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--download">
+									<a class="main-nav__heading" data-test="rsnav-download" href="download">Baixar</a>
+								</li>
+									<li class="main-nav__item main-nav__item--try">
+										<a id="try" class="main-nav__heading" data-test="rsnav-try" href="https://secure.runescape.com/m=account-creation/l=3/create_account?theme=runescape">Jogue Grátis</a>
+									</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<div class='banner'>
+    <div id='carousel' class='inner'>
+        <ul class='slides'>
+                <li>
+                    <a href='http://services.runescape.com/m=news/l=3/a-volta-do-fim-de-semana-de-exp-em-dobro-estendido'><img src='https://cdn.runescape.com/assets/img/external/rotators/2020/01/double-XP-web-rotator_pt.png'  alt='' /></a>
+                </li>
+                <li>
+                    <a href='../twitch-prime-welcome'><img src='img/rs3/blank.gif' data-src="https://cdn.runescape.com/assets/img/external/rotators/2020/01/RS-19_Rotator_Twitch-Prime-Month-4_PT.jpg" alt='' /></a>
+                </li>
+                <li>
+                    <a href='http://services.runescape.com/m=news/l=3/diario-arqueologico-guerropolis'><img src='img/rs3/blank.gif' data-src="https://cdn.runescape.com/assets/img/external/rotators/2019/12/RS3_Rotator_Warforge_PT.jpg" alt='' /></a>
+                </li>
+                <li>
+                    <a href='http://services.runescape.com/m=news/l=3/o-rancho-perdido-no-tempo-agricultura-120-herbologia-120-e-trilha-do-iaque'><img src='img/rs3/blank.gif' data-src="https://cdn.runescape.com/assets/img/external/rotators/2019/11/RS-19_Rotator_Ranch_Out_of_Time_PT.jpg" alt='' /></a>
+                </li>
+                <li>
+                    <a href='premier-club'><img src='https://cdn.runescape.com/assets/img/external/rotators/2019/11/RS-19_Rotator_Premier-Club_PT.jpg'  alt='' /></a>
+                </li>
+        </ul>
+    </div>
+</div>
+<div class='contents'>
+	<main class='main' role='main'>
+		<div class='promoBoxes' id='promos'>
+			<div class='inner'>
+				<ul class='selection'>
+						    <li class='oldschool custom'>
+            <h3><a href='https://oldschool.runescape.com/l=3/'>RS das Antigas</a></h3>
+    </li>
+ 
+    <li class='premier custom'>
+            <h3><a href='premier-club'>Premier Clube</a></h3>
+    </li>
+                            <li class='mobile custom'>
+            <h3><a href='../mobile'>RuneScape Versão Móvel</a></h3>
+    </li>
+ 
+				</ul>
+			</div>
+		</div>
+		<div class='clear'>
+			<div class='tabbedElement' id='tabs'>
+				<div class='inner'>
+					<ul class='tabNav' id='tabNav'>
+						<li><a href='community#news'><span>Notícias</span></a></li>
+						<li><a href='community#videos' id='videoLink'><span>Vídeos</span></a></li>
+					</ul>
+					<div class='tabbedContents'>
+						<div id='news' class='tabbedContent'>
+		<div class='categories'>
+		    <h6>Categorias</h6>
+			<ul class='catList' id='catListNews'>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=0&amp;page=1' data-type='news' data-id='0' class=active>Todos</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1' data-type='news' data-id='1' >Atualizações do Jogo</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=2&amp;page=1' data-type='news' data-id='2' >Site</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=3&amp;page=1' data-type='news' data-id='3' >Suporte</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=4&amp;page=1' data-type='news' data-id='4' >Suporte Técnico</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=5&amp;page=1' data-type='news' data-id='5' >Comunidade</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=6&amp;page=1' data-type='news' data-id='6' >Bastidores</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=7&amp;page=1' data-type='news' data-id='7' >Versão Móvel</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=9&amp;page=1' data-type='news' data-id='9' >Loja</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=10&amp;page=1' data-type='news' data-id='10' >Blog dos Desenvolvedores</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=11&amp;page=1' data-type='news' data-id='11' >Competições</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=12&amp;page=1' data-type='news' data-id='12' >Atualizações Futuras</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=13&amp;page=1' data-type='news' data-id='13' >Shopping do Salomão</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=14&amp;page=1' data-type='news' data-id='14' >Arcas do Tesouro</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=15&amp;page=1' data-type='news' data-id='15' >Seu Feedback</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=16&amp;page=1' data-type='news' data-id='16' >Eventos</a></li>
+			</ul>
+		</div>
+							<div class='index' id='newsSection'>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/atualizacao-do-jogo-modificacoes-recentes-e-fim-de-semana-de-exp-em-dobro'><img src='img/responsive/common/news/fallback-gameupdates.jpg' alt='Atualização do Jogo: Modificações Recentes e Fim de Semana de EXP em Dobro' title='Atualização do Jogo: Modificações Recentes e Fim de Semana de EXP em Dobro Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/atualizacao-do-jogo-modificacoes-recentes-e-fim-de-semana-de-exp-em-dobro'>Atualização do Jogo: Modificações Recentes e Fim de Semana de EXP em Dobro</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-17'>17 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/manutencao-dos-servidores-19-de-fevereiro-cancelada'><img src='img/responsive/common/news/fallback-technical.jpg' alt='Manutenção dos servidores: 19 de fevereiro (cancelada)' title='Manutenção dos servidores: 19 de fevereiro (cancelada) Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/manutencao-dos-servidores-19-de-fevereiro-cancelada'>Manutenção dos servidores: 19 de fevereiro (cancelada)</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=4&amp;page=1'>Suporte Técnico</a></h5>
+                                                <time datetime='2020-02-19'>19 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/modificacoes-recentes---1702'><img src='../img/responsive/common/news/fallback-yourfeedback.jpg' alt='Modificações Recentes - 17/02' title='Modificações Recentes - 17/02 Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/modificacoes-recentes---1702'>Modificações Recentes - 17/02</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-17'>17 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/diario-de-arqueologia-kharid-et'><img src='https://cdn.runescape.com/assets/img/external/news/2020/02/KharidetThumbnail.jpg' alt='Diário de Arqueologia: Kharid-et' title='Diário de Arqueologia: Kharid-et Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/diario-de-arqueologia-kharid-et'>Diário de Arqueologia: Kharid-et</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-14'>14 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/atualizacao-do-jogo-o-reino-da-gosma'><img src='https://cdn.runescape.com/assets/img/external/news/2020/02/Once_upon_a_slime_news_thumbnail.png' alt='Atualização do Jogo: O Reino da Gosma' title='Atualização do Jogo: O Reino da Gosma Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/atualizacao-do-jogo-o-reino-da-gosma'>Atualização do Jogo: O Reino da Gosma</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-10'>10 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/modificacoes-recentes-100220'><img src='../img/responsive/common/news/fallback-yourfeedback.jpg' alt='Modificações Recentes 10/02/20' title='Modificações Recentes 10/02/20 Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/modificacoes-recentes-100220'>Modificações Recentes 10/02/20</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-10'>10 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/atualizacao-do-jogo-mudancas-em-mineracao-e-metalurgia'><img src='https://cdn.runescape.com/assets/img/external/news/2020/02/game-update-mining-and-smithing-changes-thumbnail.jpg' alt='Atualização do Jogo: Mudanças em Mineração e Metalurgia' title='Atualização do Jogo: Mudanças em Mineração e Metalurgia Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/atualizacao-do-jogo-mudancas-em-mineracao-e-metalurgia'>Atualização do Jogo: Mudanças em Mineração e Metalurgia</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-03'>03 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article >
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/modificacoes-recentes-030220'><img src='../img/responsive/common/news/fallback-yourfeedback.jpg' alt='Modificações Recentes 03/02/20' title='Modificações Recentes 03/02/20 Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/modificacoes-recentes-030220'>Modificações Recentes 03/02/20</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-02-03'>03 Fevereiro 2020</time>
+                                            </div>
+                                        </article>
+							</div>
+	<div class="btnWrap more">
+		<div class="btn">
+			<a href="https://secure.runescape.com/m=news/l=3/list"><span>Mais Notícias</span></a>
+		</div>
+	</div>
+						</div>
+						<div id='videos' class='tabbedContent'>
+		<div class='categories'>
+		    <h6>Categorias</h6>
+			<ul class='catList' id='catListVideo'>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=0&amp;page=1' data-type='video' data-id='0' class=active>Todos</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1' data-type='video' data-id='1' >Atualizações do Jogo</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=2&amp;page=1' data-type='video' data-id='2' >Site</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=3&amp;page=1' data-type='video' data-id='3' >Suporte</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=4&amp;page=1' data-type='video' data-id='4' >Suporte Técnico</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=5&amp;page=1' data-type='video' data-id='5' >Comunidade</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=6&amp;page=1' data-type='video' data-id='6' >Bastidores</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=7&amp;page=1' data-type='video' data-id='7' >Versão Móvel</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=9&amp;page=1' data-type='video' data-id='9' >Loja</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=10&amp;page=1' data-type='video' data-id='10' >Blog dos Desenvolvedores</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=11&amp;page=1' data-type='video' data-id='11' >Competições</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=12&amp;page=1' data-type='video' data-id='12' >Atualizações Futuras</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=13&amp;page=1' data-type='video' data-id='13' >Shopping do Salomão</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=14&amp;page=1' data-type='video' data-id='14' >Arcas do Tesouro</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=15&amp;page=1' data-type='video' data-id='15' >Seu Feedback</a></li>
+			        <li><a href='https://secure.runescape.com/m=news/l=3/list?cat=16&amp;page=1' data-type='video' data-id='16' >Eventos</a></li>
+			</ul>
+		</div>
+							<div class='index' id='videoSection'>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/retiro-da-guerra-e-amistoso-de-habilidades'><img src='img/rs3/blank.gif' data-original='https://cdn.runescape.com/assets/img/external/news/2018/10/News_Thumbnail_Til_Death_Do_Us_Part_War.jpg' alt='Retiro da Guerra e Amistoso de Habilidades' title='Retiro da Guerra e Amistoso de Habilidades Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/retiro-da-guerra-e-amistoso-de-habilidades'>Retiro da Guerra e Amistoso de Habilidades</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2020-01-27'>27 Janeiro 2020</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/o-que-vem-por-ai-dezembro'><img src='img/rs3/blank.gif' data-original='https://www.runescape.com/l=3/img/responsive/common/news/fallback-behindthescenes.jpg' alt='O Que Vem Por Aí: Dezembro' title='O Que Vem Por Aí: Dezembro Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/o-que-vem-por-ai-dezembro'>O Que Vem Por Aí: Dezembro</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=6&amp;page=1'>Bastidores</a></h5>
+                                                <time datetime='2019-11-29'>29 Novembro 2019</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/diario-do-designer-conteudos-episodicos-'><img src='img/rs3/blank.gif' data-original='https://www.runescape.com/l=3/img/responsive/common/news/fallback-unspecified.jpg' alt='Diário do Designer: Conteúdos Episódicos ' title='Diário do Designer: Conteúdos Episódicos  Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/diario-do-designer-conteudos-episodicos-'>Diário do Designer: Conteúdos Episódicos </a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=10&amp;page=1'>Blog dos Desenvolvedores</a></h5>
+                                                <time datetime='2019-09-06'>06 Setembro 2019</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/runefest-2019---anuncio-da-programacao'><img src='img/rs3/blank.gif' data-original='https://cdn.runescape.com/assets/img/external/news/2018/4/Runefest_Announcement_News_thumbnail.jpg' alt='RuneFest 2019 - Anúncio da Programação' title='RuneFest 2019 - Anúncio da Programação Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/runefest-2019---anuncio-da-programacao'>RuneFest 2019 - Anúncio da Programação</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=16&amp;page=1'>Eventos</a></h5>
+                                                <time datetime='2019-09-03'>03 Setembro 2019</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/o-que-vem-por-ai-em-setembro'><img src='img/rs3/blank.gif' data-original='https://www.runescape.com/l=3/img/responsive/common/news/fallback-gameupdates.jpg' alt='O Que Vem Por Aí em Setembro' title='O Que Vem Por Aí em Setembro Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/o-que-vem-por-ai-em-setembro'>O Que Vem Por Aí em Setembro</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=1&amp;page=1'>Atualizações do Jogo</a></h5>
+                                                <time datetime='2019-08-30'>30 Agosto 2019</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/aniversario-de-10-anos-do-runescape-em-portugues'><img src='img/rs3/blank.gif' data-original='https://www.runescape.com/l=3/img/responsive/common/news/fallback-community.jpg' alt='Aniversário de 10 anos do RuneScape em Português' title='Aniversário de 10 anos do RuneScape em Português Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/aniversario-de-10-anos-do-runescape-em-portugues'>Aniversário de 10 anos do RuneScape em Português</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=5&amp;page=1'>Comunidade</a></h5>
+                                                <time datetime='2019-08-29'>29 Agosto 2019</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/o-que-vem-por-ai-em-agosto'><img src='img/rs3/blank.gif' data-original='https://www.runescape.com/l=3/img/responsive/common/news/fallback-behindthescenes.jpg' alt='O Que Vem Por Aí em Agosto' title='O Que Vem Por Aí em Agosto Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/o-que-vem-por-ai-em-agosto'>O Que Vem Por Aí em Agosto</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=6&amp;page=1'>Bastidores</a></h5>
+                                                <time datetime='2019-08-02'>02 Agosto 2019</time>
+                                            </div>
+                                        </article>
+                                        <article class=video>
+                                            <figure>
+                                                <a href='https://secure.runescape.com/m=news/l=3/beta---marcadores-de-espaco-do-banco-e-diversidade-de-armas-2-ja-disponivel'><img src='img/rs3/blank.gif' data-original='https://www.runescape.com/l=3/img/responsive/common/news/fallback-unspecified.jpg' alt='Beta - Marcadores de Espaço do Banco e Diversidade de Armas 2 já disponível!' title='Beta - Marcadores de Espaço do Banco e Diversidade de Armas 2 já disponível! Teaser Image' /></a>
+                                            </figure>
+                                            <div class='copy'>
+                                                <h4><a href='https://secure.runescape.com/m=news/l=3/beta---marcadores-de-espaco-do-banco-e-diversidade-de-armas-2-ja-disponivel'>Beta - Marcadores de Espaço do Banco e Diversidade de Armas 2 já disponível!</a></h4>
+                                                <h5><a href='https://secure.runescape.com/m=news/l=3/list?cat=10&amp;page=1'>Blog dos Desenvolvedores</a></h5>
+                                                <time datetime='2019-07-31'>31 Julho 2019</time>
+                                            </div>
+                                        </article>
+							</div>
+	<div class="btnWrap more">
+		<div class="btn">
+			<a href="https://secure.runescape.com/m=news/l=3/list#videos"><span>Mais Vídeos</span></a>
+		</div>
+	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<aside class='sidebar' role='complementary'>
+				<section class='accountsCreated'>
+					<h3 id='numberAccounts'>Mais de 200.000.000</h3>
+					<h4>Contas do RuneScape Criadas</h4>
+				</section>
+					<section class='poll' id='poll'>
+							<h3>Enquete</h3>
+							<p>Qual é a primeira coisa que você está planejando fazer quando sair o RuneScape Móvel?</p>
+							    <form action='https://www.runescape.com/l=3/accept_vote.ws' method='post'>
+							    <input type='hidden' name='pollid' value='1517314312003' /> 
+						     
+							    <ul>
+								       <li><input type='radio' value='0' name='voteid' id='pollVote0'><label for='pollVote0'><span class='radio'></span><span class='text'>Treinar habilidades</span></label></li>
+								       <li><input type='radio' value='1' name='voteid' id='pollVote1'><label for='pollVote1'><span class='radio'></span><span class='text'>Enfrentar um chefe</span></label></li>
+								       <li><input type='radio' value='2' name='voteid' id='pollVote2'><label for='pollVote2'><span class='radio'></span><span class='text'>Bater papo e socializar</span></label></li>
+								       <li><input type='radio' value='3' name='voteid' id='pollVote3'><label for='pollVote3'><span class='radio'></span><span class='text'>Negociar com outros jogadores</span></label></li>
+								       <li><input type='radio' value='4' name='voteid' id='pollVote4'><label for='pollVote4'><span class='radio'></span><span class='text'>Explorar o mundo de Guilenor!</span></label></li>
+								    <li>
+	<div class="btnWrap ">
+		<div class="btn">
+			<div class="btnRight">
+					<input type="submit" value='Enviar' name="Enviar" />
+			</div>
+		</div>
+	</div>
+			                        </li>
+		                        </ul>
+									                        </form>
+					</section>
+				<section class='prepaid'>
+					<h3>Cartões Pré-Pagos</h3>
+					<h4><a href='store_locator'>Resgate já o seu</a></h4>
+				</section>
+				<section>
+					<h3>Siga-nos no</h3>
+					<div class='social social--homepage'>
+	                    <ul id='footerSocialButtons' class='social__list'>
+	                        <li class="social__list__item social__list__item--reddit"><a href='https://www.reddit.com/r/runescape' class='ext social__item__link' target='_blank' data-title='footer_reddit'>Reddit</a></li>
+	                        <li class="social__list__item social__list__item--facebook"><a href='community' class='ext social__item__link' target='_blank' data-title='footer_facebook'>Facebook</a></li>
+	                        <li class="social__list__item social__list__item--twitter"><a href='community' class='ext social__item__link' target='_blank' data-title='footer_twitter'>Twitter</a></li>
+	                        <li class="social__list__item social__list__item--youtube"><a href='https://www.youtube.com/RuneScape' class='ext social__item__link' target='_blank' data-title='footer_youtube'>YouTube</a></li>
+	                    </ul>
+	                </div>
+				</section>
+			</aside>
+		</div>
+	</main>
+</div><script>
+	communityTrackingCookieAge = (1582152328004-1582152302275)/1000/60;
+</script>
+<script>
+	var archiveOrNewsPage = 'home', ajaxNewsUrl = 'https://secure.runescape.com/m=news/l=3', ajaxAccountsCreatedUrl = 'https://secure.runescape.com/m=account-creation-reports/l=3';
+</script>
+	<script>
+		var RS3 = RS3 || {};
+		RS3.newsCategories = function(){
+            var categories = [];
+            categories[0] = "TDS";
+            categories[1] = "Atualizações de Jogo";
+            categories[2] = "Site";
+            categories[3] = "Suporte";
+            categories[4] = "Área Técnica";
+            categories[5] = "Comunidade";
+            categories[6] = "Bastidores";
+            categories[7] = "Mobilidade";
+			categories[8] = "Suporte ao Cliente";
+            categories[9] = "Loja";
+            categories[10] = "Blog dos Desenvolvedores";
+			categories[11] = "Competições";
+			categories[12] = "Atualizações Futuras";
+            categories[13] = "Loja do Salomão";
+            categories[14] = "Arcas do Tesouro";
+            categories[15] = "Seu feedback";
+            categories[16] = "Eventos";
+            return categories;
+		}
+	</script>
+		</div>
+		<footer class='footer'>
+			<div class='footer__inner'>
+				<a href='https://www.jagex.com/l=3/g=runescape/' class='footer__jagex ext' data-title="footer_jagex">Jagex</a>
+				<div class='footer__paragraph'>
+					<p>Todos os direitos reservados sobre este site e seu conteúdo &copy; 1999 - 2020 Jagex Ltd.</p>
+					<p>220 Science Park, Cambridge, CB4 0WA, Reino Unido</p>
+					<p>O uso deste site está sujeito a nossos <a id='footerTermsLink' href='https://www.jagex.com/l=3/g=runescape/terms' class='ext footer__paragraph__link' data-title='footer_terms'>Termos e Condições</a> e <a id='footerPrivacyLink' href='https://www.jagex.com/l=3/g=runescape/terms/privacy' class='ext footer__paragraph__link' data-title='footer_privacy'>Política de Privacidade</a>.</p>
+					<p><a id='footerRulesLink' href='game-guide/rules' class='ext footer__paragraph__link footer__paragraph__link--rules'>Regras do RuneScape</a><a id='footerCookiesLink' href='https://www.jagex.com/l=3/g=runescape/terms/cookies' class='ext footer__paragraph__link' data-title='footer_changecookie'>Mudar Configurações de Cookies</a></p>
+				</div>
+				<div class='language' id='footerSelectLanguage'>
+					<div class='language__inner'>
+						<ul class='language__list'>
+							<li class='language__list__item--pt language__list__item'><span class='language__item__span'>Português</span></li>
+									<li class='language__list__item--en language__list__item'><a class='language__item__link' href='../index.html?set_lang=0'>English</a></li>
+									<li class='language__list__item--de language__list__item'><a class='language__item__link' href='../l=1/index.html?set_lang=1'>Deutsch</a></li>
+									<li class='language__list__item--fr language__list__item'><a class='language__item__link' href='../l=2/index.html?set_lang=2'>Franï¿½ais</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script>
+		var isMemb, loggedIn, savePromoBoxes, pageLocation;
+			isMemb = -1;
+			loggedIn = -1;
+		savePromoBoxes = 'https://secure.runescape.com/m=website-data/l=3/updatePromoBoxes.json';
+		pageLocation = 'https://www.runescape.com/l=3/community';
+		document.domain = 'runescape.com';
+		var baseURL = 'https://www.runescape.com/l=3',
+			currentLangId = 3,
+			RS3 = RS3 || {};
+			RS3.imgRoot = 'https://www.runescape.com/l=3/img/rs3',
+			RS3.websiteDataUrl = 'https://secure.runescape.com/m=website-data/l=3',
+			RS3.newsUrl= 'https://secure.runescape.com/m=news/l=3',
+			RS3.webloginUrl= 'https://secure.runescape.com/m=weblogin/l=3', RS3.TRACKING_PLAY_BUTTON_CLICKED = 9200,
+			RS3.TRACKING_HOME_PAGE_LOADED = 9000;
+		var JXGLOBAL = {};
+		JXGLOBAL.client = [{
+    		'platform': 'Windows_x86',
+    		'filename': 'runescape.msi',
+    		'version': '1.4.3',
+    		'size': '23'
+    	},{
+    		'platform': 'OSX_x86',
+    		'filename': 'runescape.dmg',
+    		'version': '1.4.3',
+    		'size': '1'
+	    }];
+
+		var RESPONSIVE = RESPONSIVE || {};
+		RESPONSIVE.constant = RESPONSIVE.constant || {};
+			RESPONSIVE.constant.user = {
+				language: 3,
+				isLoggedIn: 0
+			};
+	</script>
+		<script src="js/c/responsive/vendor-129.js"></script>
+	<script src="js/rs3/plugins-109.js"></script>
+	<script src='js/jagex_global-101.js'></script>
+	<script src="js/rs3/gtm-109.js"></script>
+	<script src="js/c/rs3/functions-109.js" async defer></script>
+
+
+		</body>
+	</html>

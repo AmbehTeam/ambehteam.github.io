@@ -1,0 +1,259 @@
+
+
+    <!doctype html>
+    <html class='no-js' lang='de'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Twitch-Prime-Paket - RuneScape</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='description' content="Gratis-Mitgliedschaft für RuneScape und Twitch-Prime-Beute - schlag jetzt zu!">
+        <meta name='author' content='Jagex'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <link rel='dns-prefetch' href='https://www.google-analytics.com/'>
+        <link rel='dns-prefetch' href='https://ajax.googleapis.com/'>
+        <link rel='dns-prefetch' href='https://connect.facebook.net/'>
+ 
+                <link rel='stylesheet' href='css/c/responsive/runescape/vendor-129.css' />
+                <link rel='stylesheet' href='css/c/responsive/runescape/site-129.css' />
+        <meta name='format-detection' content='telephone=no' />
+        <meta name='theme-color' content='#1C2C34' />
+        <meta name='msapplication-navbutton-color' content='#1C2C34'>
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+        <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+        <link rel='apple-touch-icon' sizes='57x57' href='img/responsive/runescape/icons/runescape-57.png' />
+        <link rel='apple-touch-icon' sizes='60x60' href='https://www.runescape.com/l=1/img/responsive/runescape/icons/runescape-60.png' />
+        <link rel='apple-touch-icon' sizes='72x72' href='img/responsive/runescape/icons/runescape-72.png' />
+        <link rel='apple-touch-icon' sizes='76x76' href='img/responsive/runescape/icons/runescape-76.png' />
+        <link rel='apple-touch-icon' sizes='114x114' href='img/responsive/runescape/icons/runescape-114.png' />
+        <link rel='apple-touch-icon' sizes='120x120' href='img/responsive/runescape/icons/runescape-120.png' />
+        <link rel='apple-touch-icon' sizes='144x144' href='img/responsive/runescape/icons/runescape-144.png' />
+        <link rel='apple-touch-icon' sizes='152x152' href='img/responsive/runescape/icons/runescape-152.png' />
+        <link rel='apple-touch-icon' sizes='180x180' href='img/responsive/runescape/icons/runescape-180.png' />
+        <link rel='icon' type='image/png' sizes='192x192' href='img/responsive/runescape/icons/runescape-192.png' />
+        <link rel='icon' type='image/png' sizes='32x32' href='img/responsive/runescape/icons/runescape-32.png' />
+        <link rel='icon' type='image/png' sizes='96x96' href='img/responsive/runescape/icons/runescape-96.png' />
+        <link rel='icon' type='image/png' sizes='16x16' href='img/responsive/runescape/icons/runescape-16.png' />
+        <meta name='msapplication-TileColor' content='#ffffff' />
+        <meta name='msapplication-TileImage' content='https://www.runescape.com/l=1/img/responsive/runescape/icons/runescape-144.png' />
+        <meta property='og:title' content='Twitch-Prime-Paket - RuneScape'>
+        <meta property='og:site_name' content='RuneScape'>
+        <meta property='og:image' content='https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/share-fb.jpg?2019-3b-d?1'>
+        <meta property='og:url' content='https://www.runescape.com/l=1/twitch-prime-welcome'>
+        <meta property='og:description' content='Gratis-Mitgliedschaft für RuneScape und Twitch-Prime-Beute - schlag jetzt zu!'>
+        <meta name='twitter:domain' content='RuneScape.com'>
+        <meta name='twitter:url' content='https://www.runescape.com/l=1/twitch-prime-welcome'>
+        <meta name='twitter:title' content='Twitch-Prime-Paket - RuneScape'>
+        <meta name='twitter:description' content='Gratis-Mitgliedschaft für RuneScape und Twitch-Prime-Beute - schlag jetzt zu!'>
+        <meta name='twitter:image:src' content='https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/share-twitter.jpg?2019-3b-d?1'>
+        <meta name='twitter:site' content='@RuneScape'>
+        <meta name='google-site-verification' content='pUwl5KYHKSZ6tbbgsR2wYNv1kbVmsYral3iFmijHTWM' />
+        <link rel='manifest' href='manifest.json' />
+	<script>
+	var _vis_opt_cookieDays = 1,
+	_vwo_code=(function(){
+	var account_id=54596,
+	settings_tolerance=2000,
+	library_tolerance=2500,
+	use_existing_jquery=false,
+	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+	</script>
+        <script>
+            var CM = {lib:{}},
+                RS = RS || {};
+            RS.components = {};
+            RS.constant = {
+                url: {
+                    home: 'https://www.runescape.com/l=1/'
+                }
+            };
+            document.domain = 'runescape.com';
+        </script>
+    </head>
+    <body class=' p-twitch-prime' id='p-twitch-prime'>
+    <script>RS.components.menu = true;</script>
+    <header class='c-header' id='c-header'>
+        <div class='c-header__wrapper' id='c-header-wrapper' data-container='top'>
+            <div class="c-menu" data-menu="">
+                <div class='c-menu__logo'>
+        <a href='index.html' id='rs-logo-home' class='a-logo' data-test='product-logo-rs'>
+ 
+    <img src='img/responsive/common/logos/runescape.png' data-interchange='[https://www.runescape.com/l=1/img/responsive/common/logos/runescape.png, small], [https://www.runescape.com/l=1/img/responsive/common/logos/runescape@2x.png, retina]' alt=" RuneScape Logo" title=" RuneScape" data-test='product-logo-img-rs' />
+        </a>
+                </div>
+                <button data-menu-toggle class='c-menu__hamburger' type='button'></button>
+                <nav class='c-menu__nav'>
+                    <ul id='c-header-nav-list' class='c-menu__nav-list' data-menu-list>
+                        <li class='c-menu__nav-item'>
+                            <a href='index.html' class='c-menu__nav-link'>Hauptseite</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <section class='c-splash c-splash--align-middle c-splash--align-left' data-interchange='[https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/splash-mobile.jpg?2019-3b-d, small], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/splash-tablet.jpg?2019-3b-d, medium], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/splash-laptop.jpg?2019-3b-d, laptop], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/splash-desktop.jpg?2019-3b-d, desktop]' data-test='c-splash'>
+                <div class='c-splash__video'>
+                    <video class='a-bg-video' data-video data-video-webm='https://cdn.runescape.com/assets/video/twitch-prime/RS-19_Twitch-Prime_Header-Video.webm' data-video-mp4='' loop muted></video>
+                </div>
+            <div class='c-splash__content'>
+                    <h1 class='c-splash__title'>
+                        <img class='c-splash__logo' src='img/responsive/common/logos/twitch-prime-new.svg' alt='Twitch Prime' title='Twitch Prime' />
+                    </h1>
+		<h1 class='c-copy-block__title'>
+				<small>Exklusives</small>
+			neues Umbral-Paket
+		</h1>
+                <p class='c-splash__copy' >Umbral-Umhang, Umbral-Bogen, Umbral-Stab sowie alle vorherigen Umbral-Gegenstände!</p>
+                <a class='a-button a-button--size-large' href='https://twitch.amazon.com/tp/loot?ref_=SM_CM_RUNE19P2_P4_MIC' data-test='c-splash-buy-now'>Belohnungen holen</a>
+            </div>
+        </section>
+            <script>RS.components.video = true;</script>
+        <section class='c-image-plate' data-interchange='[https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/loot-mobile.jpg?2019-3b-d, small], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/loot-tablet.jpg?2019-3b-d, medium], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/loot-desktop.jpg?2019-3b-d, desktop]'>
+            <div class='c-image-plate__central'>
+                <div class='c-image-plate__content'>
+		<h1 class='c-copy-block__title'>
+				<small>Ein anderes Angebot</small>
+			jeden Monat!
+		</h1>
+    <p>Wir haben uns mit Twitch Prime zusammengetan, um dir vier Monate lang exklusive Belohnungen im Spiel zu bringen:</p>
+    <ul>
+        <li><del>1. MONAT: Ein Premium-Währungspaket mit 200 RuneCoins, 15 Schatzjäger-Schlüsseln und 40 Eisherzen!</del></li>
+        <li><del>2. MONAT: Eine 14-tägige GRATIS-Mitgliedschaft für RuneScape und Old School!</del></li>
+        <li><del>3. MONAT: Drei Umbral-Truhen, die mit Schätzen gefüllt sind!</del></li>
+        <li>4. MONAT: Ein Paket aus für Twitch Prime exklusiven Ziergegenständen: Umbral-Umhang, Umbral-Langbogen, Umbral-Stab sowie frühere Umbral-Zieranpassungen!</li>
+    </ul>
+                </div>
+            </div>
+        </section>
+        <section class='c-image-plate c-image-plate--position-right c-image-plate--type-video' data-interchange='[https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/whatis-desktop.jpg?2019-3b-d, small], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/whatis-desktop.jpg, medium], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/whatis-desktop.jpg?2019-3b-d, desktop]'>
+            <div class='c-image-plate__central'>
+                    <div class='c-image-plate__video'>
+                        <div class='c-image-plate__video-wrapper'>
+                            <iframe class='a-youtube-player' width='560' height='315' src='https://www.youtube.com/embed/8QQXe9n2Frk?hl=de&amp;cc_lang_pref=de&amp;cc_load_policy=1&amp;rel=0' allowfullscreen></iframe>
+                        </div>
+                    </div>
+                <div class='c-image-plate__content'>
+		<h1 class='c-copy-block__title'>
+				<small>Was ist</small>
+			RuneScape?
+		</h1>
+    <p>Ein episches Abenteuer-MMO, das seit 18 Jahren entwickelt wird. Eine fesselnde Geschichte voller Helden und Drachen. Eine sich ständig verändernde Welt aus riesigen Städten, tiefen Höhlen, geheimnisvollen Wäldern und weiten Wüsten erwartet dich. Decke ihre Geheimnisse auf, meistere Magie, besiege furchterregende Gegner und verändere den Lauf der Zeit!</p>
+    <p>Bist du bereit, dich in dein größtes Abenteuer zu stürzen?</p>
+    <a class='a-button' href='https://secure.runescape.com/m=account-creation/l=1/create_account?theme=runescape' data-test='create-account'>Spielkonto erstellen</a>
+                </div>
+            </div>
+        </section>
+        <section class='c-image-plate' data-interchange='[https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/claim-mobile.jpg?2019-3b-d, small], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/claim-tablet.jpg?2019-3b-d, medium], [https://www.runescape.com/l=1/img/responsive/runescape/twitch-prime/claim-desktop.jpg?2019-3b-d, desktop]'>
+            <div class='c-image-plate__central'>
+                <div class='c-image-plate__content'>
+		<h1 class='c-copy-block__title'>
+				<small>So kriegst du</small>
+			deine Beute
+		</h1>
+    <ol class='m-ordered-string-list'>
+            <li data-prefix='Schritt'><a href="https://twitch.amazon.com/tp/loot?ref_=SM_CM_RUNE19P2_P4_MIC" target="_blank" data-test="step-1" rel="noopener">Logg dich bei deinem Twitch-Prime-Konto ein oder erstelle eins.</a></li>
+            <li data-prefix='Schritt'><a href="https://twitch.amazon.com/tp/loot?ref_=SM_CM_RUNE19P2_P4_MIC" target="_blank" data-test="step-2" rel="noopener">Hol dir deine monatliche RuneScape-Beute auf Twitch.</a></li>
+            <li data-prefix='Schritt'>Schnapp dir deine Beute, indem du dein Konto von RuneScape mit Twitch verbindest.</li>
+            <li data-prefix='Schritt'>Fang an zu spielen, um deine Beute zu genießen!</li>
+    </ol>
+    <p>Noch kein Mitglied bei Twitch Prime? Beginne dein <a href='https://twitch.amazon.com/tp/loot?ref_=SM_CM_RUNE19P2_P4_MIC' target='_blank' rel='noopener'>kostenloses Probeabo</a> noch heute!</p>
+    <p>Du musst den Einlöse-Prozess abschließen, bevor du deine Belohnungen erhalten kannst!</p>
+                </div>
+            </div>
+        </section>
+        <section class='c-copy-block' data-interchange='[, small], [, medium], [, desktop]'  data-test='c-copy-block'>
+            <div class='c-copy-block__content'>
+		<h1 class='c-copy-block__title'>
+			Weitere Informationen
+		</h1>
+    <a href='https://support.runescape.com/hc/de/articles/360000757558' data-test='faqs'>Fragen und Antworten</a> | <a href='https://www.twitch.tv/p/de-de/legal/terms-of-service/' target='_blank' rel='noopener' data-test='twitch-prime-terms'>Allgemeine Geschäftsbedingungen</a>
+            </div>
+        </section>
+    <footer class='c-footer'>
+        <div class='c-footer__wrapper'>
+            <div class='c-footer__jagex'>
+                <a class='c-footer__jagex-link' href='https://www.jagex.com/l=1/g=runescape/'><img class='c-footer__jagex-img' src='img/responsive/common/logos/jagex.svg' alt="Jagex-Logo" title="Jagex" /></a>
+            </div>
+            <div class='c-footer__content'>
+                <p class='c-footer__copy'>Copyright &copy; 1999 - 2020 Jagex Ltd. 220 Science Park, Cambridge, CB4 0WA, Großbritannien</p>
+                <p class='c-footer__copy'>
+                    Die Benutzung dieser Website unterliegt unseren <a class='c-footer__link' href='https://www.jagex.com/l=1/g=runescape/terms/terms.ws' target='_blank' rel='noopener'>AGB</a>,
+                    <a class='c-footer__link' href='https://www.jagex.com/l=1/g=runescape/privacy/privacy.ws' target='_blank' rel='noopener'>Datenschutzrichtlinien</a> und
+                    <a class='c-footer__link' href='https://www.jagex.com/l=1/g=runescape/terms/cookies.ws' target='_blank' rel='noopener'>Cookie-Richtlinien</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+ 
+    <script>
+        window.cookieconsent_options = {
+            message: "Wir benutzen Cookies, um die korrekte Funktionsweise dieser Seite zu gewährleisten, das Verhalten von Besuchern nachzuvollziehen und relevantere Werbeanzeigen auf Seiten von Jagex und anderen Anbietern anzuzeigen. Durch die weitere Nutzung dieser Seite stimmst du der Verwendung von Cookies und vergleichbaren Technologien von uns und Drittparteien zu. Weitere Informationen findest du in unseren  <a href='https://www.jagex.com/l=1/g=runescape/terms/privacy' target='_blank'>Datenschutzrichtlinien</a> und unseren <a href='https://www.jagex.com/l=1/g=runescape/terms/cookies' target='_blank'>Cookie-Richtlinien</a>.",
+            dismiss: "Alles klar",
+            link: 'https://www.jagex.com/l=1/g=runescape/terms/cookies',
+            showLink: true,
+            theme: false,
+            markup: '<div class="c-cookie-consent"><p class="c-cookie-consent__copy">[[options.message]]</p><div class="c-cookie-consent__options"><a href="twitch-prime-welcome#null" data-cc-event="click:dismiss" target="_blank" class="a-button c-cookie-consent__dismiss">[[options.dismiss]]</a></div></div>'
+        }
+    </script>
+
+        <script src='js/c/responsive/vendor-129.js'></script>
+
+	<script>
+        var gtmSite = 'runescape';
+
+            var gtmUser = {
+                language: 0,
+                isLoggedIn: 0
+            };
+
+        if (typeof(dataLayer) !== 'undefined'){
+            dataLayer[0].user = gtmUser;
+        } else {
+            var dataLayer = [{
+                'user': gtmUser
+            }];
+        }
+
+        if (typeof(Cookies.get('JXFRONTUID')) !== 'undefined') {
+            if (typeof(dataLayer) !== 'undefined'){
+                dataLayer[0].JXFRONTUID = Cookies.get('JXFRONTUID');
+            } else {
+                var dataLayer = [{
+                    'JXFRONTUID': Cookies.get('JXFRONTUID')
+                }];
+            }
+        }
+
+        if (typeof(Cookies.get('bidalgouid')) !== 'undefined') {
+            if (typeof(dataLayer) !== 'undefined'){
+                dataLayer[0].bidalgouid = Cookies.get('bidalgouid');
+            } else {
+                var dataLayer = [{
+                    'bidalgouid': Cookies.get('bidalgouid')
+                }];
+            }
+        }
+
+		(function(w,d,s,l,i){
+			w[l]=w[l]||[];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event:'gtm.js',
+				site: gtmSite
+			});
+			var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),
+				dl=l!='dataLayer'?'&l='+l:'';
+
+			j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+			f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NRKJSQ');
+	</script>
+
+ 
+            <script src="js/rs3/cookie_consent-129.js"></script>
+            <script src="js/c/responsive/theme-runescape-129.js"></script>
+</body>
+</html>

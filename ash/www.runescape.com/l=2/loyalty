@@ -1,0 +1,293 @@
+	<!doctype html>
+	<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="fr"><![endif]-->
+	<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="fr"><![endif]-->
+	<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie10 lt-ie9" lang="fr"><![endif]-->
+	<!--[if (IE 9)&!(IEMobile)]><html class="no-js lt-ie10" lang="fr"><![endif]-->
+	<!--[if gt IE 9]><!--><!-- x --> <html class="no-js" lang="fr"> <!--<![endif]-->
+	<head>
+		<title>Programme de fidélité - Gagnez des points de fidélité pour abonnés</title>
+		<meta name="description" content="Notre programme de fidélité récompense les abonnés grâce à des points de fidélité correspondant à la durée de votre abonnement. Ces points peuvent être utilisés pour débloquer des récompenses comme des tenues et des auras."/>
+		<meta name="author" content="Jagex"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+		<link rel="dns-prefetch" href="https://ajax.googleapis.com/" />
+		<link rel="dns-prefetch" href="https://connect.facebook.net/" />
+    	<script src='js/c/rs3/modernizr_3_0_0_min-109.js'></script>
+    	<link href="css/c/fonts-116.css" rel="stylesheet" type="text/css" media="all" />
+    	<link href="css/c/components-116.css" rel="stylesheet" />
+		<link href="css/c/pagesal-116.css" rel="stylesheet" />
+		<link href="css/c/pagesmz-116.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/global/favicon.ico?1">
+		<link rel="apple-touch-icon" href="img/global/mobile.png?1">
+		<meta property="og:title" content="Programme de fidélité - Gagnez des points de fidélité pour abonnés" />
+		<meta property="og:site_name" content="RuneScape" />
+		<meta property="og:image" content="https://www.runescape.com/l=2/img/microsite/social-share-fb.jpg" />
+		<meta property="og:url" content="https://www.runescape.com/l=2/loyalty" />
+		<meta property="og:description" content="Notre programme de fidélité récompense les abonnés grâce à des points de fidélité correspondant à la durée de votre abonnement. Ces points peuvent être utilisés pour débloquer des récompenses comme des tenues et des auras." />
+		<meta name="twitter:domain" content="RuneScape.com">
+		<meta name="twitter:url" content="https://www.runescape.com/l=2/loyalty">
+		<meta name="twitter:title" content="Programme de fidélité - Gagnez des points de fidélité pour abonnés">
+		<meta name="twitter:description" content="Notre programme de fidélité récompense les abonnés grâce à des points de fidélité correspondant à la durée de votre abonnement. Ces points peuvent être utilisés pour débloquer des récompenses comme des tenues et des auras.">
+		<meta name="twitter:image:src" content="https://www.runescape.com/l=2/img/microsite/social-share.jpg">
+		<meta name="twitter:site" content="@RuneScape">
+		<meta name="google-site-verification" content="pUwl5KYHKSZ6tbbgsR2wYNv1kbVmsYral3iFmijHTWM" />
+	<script>
+	var _vis_opt_cookieDays = 1,
+	_vwo_code=(function(){
+	var account_id=54596,
+	settings_tolerance=2000,
+	library_tolerance=2500,
+	use_existing_jquery=false,
+	f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+	</script>
+    <link rel='canonical' href='loyalty' />
+			<meta property="fb:app_id" content="174823375888281" />
+	</head>
+	<body id="loyalty" class="loyalty fr" itemscope itemtype="https://schema.org/WebPage">
+		<div class="stickyWrap">
+	<header class="header">
+		<div class="header__container">
+			<div class="header-top">
+				<ul class="header-top__right">
+					<li class="header-top__right-option"><span id="playerCount">0</span> joueurs en ligne</li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://oldschool.runescape.com/l=2/" data-test='nav-oldschool'>Old School</a></li>
+                    <li class="header-top__right-option"><a class="header-top__right-link" href="https://payments.jagex.com/#/store/runescape/membership" data-test='nav-subscribe'>S'abonner</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="account_settings" data-test='nav-account'>Compte</a></li>
+					<li class="header-top__right-option"><a class="header-top__right-link" href="https://support.runescape.com" target="_blank" data-test='nav-support'>Aide</a></li>
+					<li class="header-top__right-option">
+							<a class="header-top__right-link header-top__right-link--signin" id="header-login" href="https://secure.runescape.com/m=weblogin/l=2/loginform?theme=runescape&amp;mod=www&amp;ssl=1&amp;dest=loyalty" data-test='nav-signin'>Se connecter / Créer un compte</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bg">
+			<div class="header__container">
+				<div class="header-second">
+					<div class="header-table">
+						<a class="header-second__logo" href="index.html">
+							<img class="header-second__logo-image" src="img/rs3/global/header_logo.png" title="RuneScape" alt="RuneScape" />
+						</a>
+						<nav class="main-nav" id="main-nav">
+							<ul class="main-nav__list">
+								<li class="main-nav__item main-nav__item--group main-nav__item--game">
+									<a class="main-nav__heading" data-test="rsnav-guide" href="game-info">Guide du jeu<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+
+
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-beginner" href="game-guide/beginners-guide">Guide du débutant</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-skills" href="game-guide/skills">Compétences</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-combat" href="game-guide/combat">Combat</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--news">
+									<a class="main-nav__heading" data-test="rsnav-news" href="https://secure.runescape.com/m=news/l=2/">Nouveautés</a>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--community">
+									<a class="main-nav__heading" data-test="rsnav-community" href="community">Communauté<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-forums" href="https://secure.runescape.com/m=forum/l=2/forums">Forums</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-hiscores" href="https://secure.runescape.com/m=hiscore/l=2/">Classement</a></li>
+                                    	<li class="main-nav__group-item">
+												<a class="main-nav__group-item-link" data-test="rsnav-drop-log" href="http://services.runescape.com/m=adventurers-log/l=2/">Carnet d'aventurier</a>
+										</li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-exchange" href="http://services.runescape.com/m=itemdb_rs/l=2/">Grand Marché</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-clans" href="http://services.runescape.com/m=clan-home/l=2/">Clans</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-power" href="http://services.runescape.com/m=poll/l=2/">Le pouvoir aux joueurs</a></li>
+										<li class="main-nav__group-item"><a class="main-nav__group-item-link" data-test="rsnav-drop-recruit" href="http://services.runescape.com/m=friend-referral/l=2/">Parrainage d'ami</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--group main-nav__item--shop">
+									<a class="main-nav__heading" data-test="rsnav-shop" href="members_benefits">Boutique<span class="main-nav__expander"></span></a>
+									<ul class="main-nav__group">
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-membe"><a class="main-nav__group-item-link" data-test="rsnav-drop-membership" href="members_benefits">Abonnement</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-treas"><a class="main-nav__group-item-link" data-test="rsnav-drop-treasure" href="treasure-hunter">Chasse aux trésors</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-bonds"><a class="main-nav__group-item-link" data-test="rsnav-drop-bonds" href="bonds">Bons d'échange</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-solom"><a class="main-nav__group-item-link" data-test="rsnav-drop-solomon" href="solomons-store">Boutique de Salomon</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-runemetrics"><a class="main-nav__group-item-link" data-test="rsnav-drop-rmpro" href="runemetrics">RuneMetrics Pro</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-loyal"><a class="main-nav__group-item-link" data-test="rsnav-drop-loyalty" href="loyalty">Programme de fidélité</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-cards"><a class="main-nav__group-item-link" data-test="rsnav-drop-cards" href="store_locator">Cartes prépayées</a></li>
+										<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-merch"><a class="main-nav__group-item-link" data-test="rsnav-drop-merch" href="http://runescape.backstreetmerch.com" target="_blank">Boutique RS</a></li>
+									</ul>
+								</li>
+								<li class="main-nav__item main-nav__item--download">
+									<a class="main-nav__heading" data-test="rsnav-download" href="download">Téléchargements</a>
+								</li>
+									<li class="main-nav__item main-nav__item--try">
+										<a id="try" class="main-nav__heading" data-test="rsnav-try" href="https://secure.runescape.com/m=account-creation/l=2/create_account?theme=runescape">Essayer gratuitement</a>
+									</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="inner">
+			<img src="img/rs3/banners/generic.jpg" alt='RuneScape Landscape' />
+		</div>
+	</div>
+<div class='contents'>
+    <main>
+	<h1 class="title"><span>Programme de fidélité</span></h1>
+	<ul class="breadcrumb" itemprop="breadcrumb">
+	<li><a href='index.html' itemprop='url'>Accueil</a></li>
+			<li>Programme de fidélité</li>
+	</ul>
+        <div class='twoColumns clear'>
+            <section class='left'>
+                <h2>En quoi consiste-t-il ?</h2>
+                <p>C'est notre façon de récompenser nos abonnés. Son fonctionnement est simple : vous recevez des points en étant abonné et le nombre de points reçus augmentera si vous n'interrompez pas votre abonnement ! Et ce n'est pas tout : abonnez-vous pendant 12 mois consécutifs pour obtenir un cadeau du programme de fidélité !</p>
+                <p>Dépensez vos points dans la <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index' target='_blank' class='showShop'>boutique de Salomon</a> et choisissez parmi plus de 200 articles différents ! Abonnez-vous et profitez immédiatement de ces avantages !</p>
+                <p><a href='loyalty#spendPoints'>Lisez la suite</a> pour savoir comment dépenser vos points de fidélité.</p>
+                <aside class='solomonsLogo'>Boutique de Salomon</aside>
+            </section>
+            <div class='right'>
+                    <article class='ctaButton member'>
+                        <a href='members_benefits'>
+                            <div class='contentBox'>
+                                <h2 class='more'><span class='smallerFont'>Abonnez-vous à</span> RuneScape</h2>
+                                <p>et recevez <strong>500 points de fidélité</strong><br>lors de votre inscription !</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class='ctaButton store'>
+                        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index' target='_blank'>
+                            <div class='contentBox'>
+                                <h2 class='more'><span class='smallerFont'>Visitez la</span> boutique</h2>
+                                <p><strong>Vous êtes déjà abonné ?</strong> Alors visitez la boutique de Salomon pour dépenser vos points !</p>
+                            </div>
+                        </a>
+                    </article>
+            </div>
+            <span class='solomonsHat'></span>
+        </div>
+        <div class='oneColumn clear' id='spendPoints'>
+            <section class='intro'>
+                <h2>Où puis-je dépenser mes points de fidélité ?</h2>
+                <p>Dépensez vos points de fidélité dans la boutique de Salomon et faites votre choix parmi plus de 200 différents articles. Cliquez sur l'une des catégories ci-dessous pour accéder à la boutique.</p>
+            </section>
+    <article class='products outfits'>
+        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Wardrobe' class='linkToShop' target='_blank'>
+            <span>Tenues</span>
+        </a>
+        <h3>Tenues</h3>
+        <p>Sortez du lot grâce à ces apparences d'armures originales.<a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Wardrobe' target='_blank'>Voir les tenues</a></p>
+    </article>
+    <article class='products auras'>
+        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Auras' class='linkToShop' target='_blank'>
+            <span>Auras</span>
+        </a>
+        <h3>Auras</h3>
+        <p>Améliorez votre expérience de jeu grâce à ces auras conférant un avantage décisif en combat.<a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Auras' target='_blank'>Voir les auras</a></p>
+    </article>
+    <article class='products emotes'>
+        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Emotes' class='linkToShop' target='_blank'>
+            <span>Émotes</span>
+        </a>
+        <h3>Émotes</h3>
+        <p>Complétez votre collection et exprimez-vous grâce à ces émotes uniques et originales.<a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Emotes' target='_blank'>Voir les émotes</a></p>
+    </article>
+    <article class='products teleports'>
+        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Spells' class='linkToShop' target='_blank'>
+            <span>Téléportations</span>
+        </a>
+        <h3>Téléportations</h3>
+        <p>Voyagez aux quatre coins de Giélinor avec classe grâce à ces versions originales du sort Téléretour !<a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Spells' target='_blank'>Voir les téléportations</a></p>
+    </article>
+    <article class='products animations'>
+        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?package=DragonKeepsakeKey' class='linkToShop' target='_blank'>
+            <span>Animations</span>
+        </a>
+        <h3>Animations</h3>
+        <p>Pimentez votre pratique de compétences grâce à de nouvelles animations de compétences.<a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?package=DragonKeepsakeKey' target='_blank'>Voir les animations</a></p>
+    </article>
+    <article class='products services'>
+        <a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Services' class='linkToShop' target='_blank'>
+            <span>Services</span>
+        </a>
+        <h3>Services</h3>
+        <p>Découvrez des objets offrant des services utiles et pratiques, comme les espaces bancaires supplémentaires.<a href='https://secure.runescape.com/m=mtxn_rs_shop/l=2/index?category=Services' target='_blank'>Voir les services</a></p>
+    </article>
+            <div class='linkAndDesc'>
+                <h4>Et bien plus encore !</h4>
+                <span class='decoBar'></span>
+	<div class="btnWrap visitStore more" id='visitStore'>
+		<div class="btn">
+			<a href="https://secure.runescape.com/m=mtxn_rs_shop/l=2/index"><span>Visiter la boutique</span></a>
+		</div>
+	</div>
+            </div>
+        </div>
+        <div class='patternedBorder'>
+            <h2>Vous voulez en savoir plus ?</h2>
+            <p>Consultez l'article officiel du centre d'aide consacré au <a href='https://support.runescape.com/hc/fr/articles/206853589'>programme de fidélité.</a>.</p>
+        </div>
+    </main>
+</div>
+		</div>
+		<footer class='footer'>
+			<div class='footer__inner'>
+				<a href='https://www.jagex.com/l=2/g=runescape/' class='footer__jagex ext' data-title="footer_jagex">Jagex</a>
+				<div class='footer__paragraph'>
+					<p>Copyright &copy; 1999 - 2020 Jagex Ltd.</p>
+					<p>220 Science Park, Cambridge, CB4 0WA, Royaume-Uni</p>
+					<p>L'utilisation de ce site Internet est sous réserve de l'acceptation de nos <a id='footerTermsLink' href='https://www.jagex.com/l=2/g=runescape/terms' class='ext footer__paragraph__link' data-title='footer_terms'>Conditions d'utilisation</a> et <a id='footerPrivacyLink' href='https://www.jagex.com/l=2/g=runescape/terms/privacy' class='ext footer__paragraph__link' data-title='footer_privacy'>notre Charte de confidentialité</a>.</p>
+					<p><a id='footerRulesLink' href='game-guide/rules' class='ext footer__paragraph__link footer__paragraph__link--rules'>Règles de RuneScape</a><a id='footerCookiesLink' href='https://www.jagex.com/l=2/g=runescape/terms/cookies' class='ext footer__paragraph__link' data-title='footer_changecookie'>Changer les paramètres de cookie.</a></p>
+				</div>
+				<div class='language' id='footerSelectLanguage'>
+					<div class='language__inner'>
+						<ul class='language__list'>
+							<li class='language__list__item--fr language__list__item'><span class='language__item__span'>Français</span></li>
+									<li class='language__list__item--en language__list__item'><a class='language__item__link' href='../index.html?set_lang=0'>English</a></li>
+									<li class='language__list__item--de language__list__item'><a class='language__item__link' href='../l=1/index.html?set_lang=1'>Deutsch</a></li>
+									<li class='language__list__item--pt language__list__item'><a class='language__item__link' href='../l=3/index.html?set_lang=3'>Portuguï¿½s (BR)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	<script>
+		var isMemb, loggedIn, savePromoBoxes, pageLocation;
+			isMemb = -1;
+			loggedIn = -1;
+		savePromoBoxes = 'https://secure.runescape.com/m=website-data/l=2/updatePromoBoxes.json';
+		pageLocation = 'https://www.runescape.com/l=2/loyalty';
+		document.domain = 'runescape.com';
+		var baseURL = 'https://www.runescape.com/l=2',
+			currentLangId = 2,
+			RS3 = RS3 || {};
+			RS3.imgRoot = 'https://www.runescape.com/l=2/img/rs3',
+			RS3.websiteDataUrl = 'https://secure.runescape.com/m=website-data/l=2',
+			RS3.newsUrl= 'https://secure.runescape.com/m=news/l=2',
+			RS3.webloginUrl= 'https://secure.runescape.com/m=weblogin/l=2', RS3.TRACKING_PLAY_BUTTON_CLICKED = 9200,
+			RS3.TRACKING_HOME_PAGE_LOADED = 9000;
+		var JXGLOBAL = {};
+		JXGLOBAL.client = [{
+    		'platform': 'Windows_x86',
+    		'filename': 'runescape.msi',
+    		'version': '1.4.3',
+    		'size': '23'
+    	},{
+    		'platform': 'OSX_x86',
+    		'filename': 'runescape.dmg',
+    		'version': '1.4.3',
+    		'size': '1'
+	    }];
+
+		var RESPONSIVE = RESPONSIVE || {};
+		RESPONSIVE.constant = RESPONSIVE.constant || {};
+			RESPONSIVE.constant.user = {
+				language: 2,
+				isLoggedIn: 0
+			};
+	</script>
+		<script src="js/c/responsive/vendor-129.js"></script>
+	<script src="js/rs3/plugins-109.js"></script>
+	<script src='js/jagex_global-101.js'></script>
+	<script src="js/rs3/gtm-109.js"></script>
+	<script src="js/c/rs3/functions-109.js" async defer></script>
+		</body>
+	</html>
