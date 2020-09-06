@@ -1,0 +1,361 @@
+      html {
+        overflow: -moz-scrollbars-vertical; 
+        overflow-y: scroll;
+        line-height: 1.5;
+      }
+      
+      html, body {
+        font-size:medium;
+      }
+      
+      img {
+        vertical-align: baseline;
+      }
+      
+    .header {
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Cinzel Decorative', cursive;
+        border-bottom: 3px solid black;
+      }
+
+      body {
+        font-family: 'Cinzel', serif;
+        border: 3px solid black;
+        border-radius: 5px;
+        min-height: 100%; 
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      h2 , h5 {
+        text-align: center;
+      }
+
+      /* .content {
+      min-height: calc(100vh - 150px);  FIXED FOOTER IN THE BOTTOM 
+      } */
+      
+      .footer {
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 10px;
+        border-top: 3px solid black;
+        clear: both;
+        height: 140px;
+      }
+
+      .footers {
+      font-weight: bold;
+    }
+
+      .footers:hover {
+      color: #D32323;
+      font-size: 16px;
+      padding: 1px;
+    }
+
+      .active {
+       background-color: #4CAF50;
+        color: white;
+      }
+
+    li {
+        float: center;
+        display: inline-block;
+      }
+
+    blockquote {
+        background-color: #f3f3f3;
+        border-left: 4px solid gray;
+        padding: 10px 30px;
+        margin: 0 0 20px;
+    }
+    
+    .options {
+        font-weight:bold;
+    }
+    .options:hover {
+        color: #D32323;
+        padding: 5px;
+    }
+  
+/*------------------------------------------------------------------- */
+/*-----------------------Menu Bar------------------------------------ */
+
+      .menudropdown1 {
+        width:100%;
+        height:100px;
+        margin:0px auto;
+      }
+      .menudropdown1 , .img {
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0;
+          }
+      .menudropdown1 ul {
+       list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+
+      }
+       .menudropdown1 li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 0.4s;
+      }
+
+    .menudropdown1 li a:hover, .dropdown:hover .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: left;
+        padding: 14px 9px;
+        text-decoration: none;
+        background-color: #4CAF50;
+        font-size: 18px;
+        
+        }
+
+      .menudropdown1 li.dropdown {
+       display: inline-block;
+      }
+     .menudropdown1 .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .menudropdown1 .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        width: auto;
+      }
+
+      .menudropdown1 ul li ul {
+        display:none;
+      }
+
+      .menudropdown1  li:hover > ul { /* When the Navigation bar is hovered*/
+        display: block;
+        font-size: 16px;
+        color: white;
+        z-index: 1;
+        width: auto;
+
+      }
+
+      .menudropdown1 ul li ul :hover { /* When the dropdown list is hovered*/
+        display: inline-block;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        background-color: #4CAF50;
+        font-size: 17px;
+        position: left;
+        width:100%;
+      }
+
+      .menudropdown1 ul li ul li {
+        position: relative;
+        display: block;
+        width: auto;
+      }
+
+   /* ----------------------------------------------------------------------------------------- */
+   /* -----------------------------Accordion Layout (Menu)------------------------------------ */
+  .accordion {
+    background-color:  #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 49.5%;
+    border: 1;
+    border-color: silver;
+    text-align: left;
+    outline: none;
+    font-size: 19px;
+    text-shadow:3px 2px 2px black;
+    transition: max-height 0.4s ease-out;
+    margin-left: 0.5%;
+    font-family: 'Cinzel', serif;
+
+  }
+  .accordion2 {
+    background-color: #CCFFCC;  /* #1b43c9 */
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: max-height 0.4s ease-out;
+    font-family: 'Cinzel', serif;
+     
+  }
+  .actives2, .accordion:hover {
+    background-color: #CCFFCC;
+    color : black;    
+    text-shadow:0px 0px 0px black;
+  }
+  .actives, .accordion2:hover {
+    background-color: #007bff ; 
+    color: white;
+    text-shadow:3px 2px 2px black;
+  }
+  .panel {
+   padding: 0 12px;
+   background-color: #f1f1f1;
+   max-height: 0;
+   overflow: auto;
+   transition: max-height 0.4s ease-out;
+   width: 49.5%;
+   margin-left: 0.5%;
+   font-size: 22px;
+   font-family:  'Josefin Sans', sans-serif;
+
+  }
+  .panel2 {
+   padding: 0 12px;
+   background-color: #f1f1f1;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.4s ease-out;
+   width: 100%;
+   font-size: 22px;
+   font-family:  'Josefin Sans', sans-serif;
+   
+  }
+  
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    transition: max-height 0.4s ease-out;
+    
+  }
+
+  .actives2:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    transition: max-height 0.4s ease-out;
+   
+  }
+  
+  .accordion2:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    transition: max-height 0.4s ease-out;
+   
+  }
+
+  .actives:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    transition: max-height 0.4s ease-out;
+    
+  }
+  
+
+    /* -------------------------------------------------------------------------------------- */
+    /* -----------------------------Download File Overlay------------------------------------ */
+    
+    * {box-sizing: border-box}
+
+  /* Container needed to position the overlay. Adjust the width as needed */
+  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: auto;
+  }
+
+  /* Make the image to responsive */
+  
+  .image {
+  
+    width: auto;
+    height: auto;
+
+  }
+
+  /* The overlay effect - lays on top of the container and over the image */
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(211, 35, 35);
+    background: rgba(211, 35, 35, 0.8); /* Red see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    height: 99%;
+    transition: 0.5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+  }
+
+
+  /* When you mouse over the container, fade in the overlay title */
+  
+  .container:hover .overlay {
+    opacity: 1;
+   
+  }
+  
+  /* --------------------------------------------------------------- */
+  
+      /*
+     .menudropdown1 ul li ul li ul:hover { /* when 2nd Submenu is hovered
+        display: block;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        text-align: left;
+        font-size: 17px;
+        font-weight: 600;
+        top:0px;
+        left:300px;
+        z-index: 1;
+      }
+
+      .menudropdown1 .dropdown-content2 { /* defining 2nd Submenu 
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 600;
+        top:0px;
+        left:300px;
+      } */

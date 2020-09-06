@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en">
+  <head>
+    
+    <meta charset="utf-8" />
+    
+    <title>Computer Science - Ambeh Team</title>
+    <link rel="icon" type="image/ico" href="/images/logos/ambehicon.png">
+    <link href="/normalize.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i" rel="stylesheet">
+    <link href="/style.css" type="text/css"rel="stylesheet" />
+
+  </head>
+  <style>
+    .accordion {
+        background-color:  #007bff;
+        color: white;
+    }
+    .accordion2 {
+        background-color: #CCFFCC;
+        color: black;
+      }
+      
+    .actives2, .accordion:hover {
+        background-color: #CCFFCC;
+        color : black;
+      }
+      
+    .actives, .accordion2:hover {
+        background-color: #007bff ;
+        color: white;
+
+      }
+    .panel {
+       background-color: #f1f1f1;
+      }
+      
+    .panel2 {
+       background-color: #f1f1f1;
+      }
+      
+    .column.right {    /* Right column */
+          width: 26.5%;
+          float: right;
+          text-align: center;
+          position: relative;
+          font-size: 13px;
+          padding-top: 10px;
+
+        }
+
+
+    .column.left {  /* left column */
+          width: 68%;
+          float: left;
+          margin-left: 5%;
+          font-size: 24px;
+          font-family: 'Josefin Sans', sans-serif; 
+          margin-bottom: 45px;
+          margin-top: 60px;
+        }
+    
+    </style>
+  <body>
+    
+      <div class="header">
+       <img src="/images/logos/ambehbanner.png" alt="Ambeh Team's Logo">
+      </div>
+      <img src="/images/logos/ju.png"/ width="100px" height="110px" title="Ambeh Team - University of Jordan" alt ="University of Jordan" style="float:right;z-index: 100;" class="img">
+       <img src="/images/logos/ju.png"/ width="100px" height="110px"  title="Ambeh Team - University of Jordan" alt ="University of Jordan" style="float:left;z-index: 100;" class="img">
+     <br />
+      <div class="menudropdown1" style="z-index: 100;">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#scientific" class="active">Scientific Schools</a>
+              <ul class="dropdown-content">
+                 <li>
+                  <a href="/scientific/kasit/kasit.html">King Abdullah II School of <br />Information Technology</a>
+                </li>
+
+                <li>
+                  <a href="/scientific/engineering/engineering.html">School of Engineering</a>
+                </li>
+
+                <li>
+                  <a href="/scientific/science/science.html">School of Science</a>
+                </li>
+      
+                <li>
+                  <a href="/scientific/agriculture/agriculture.html">School of Agriculture</a>
+                </li>
+              </ul>
+          </li>
+          <li>
+
+            <a href="" class="dropbtn">Humanities Schools</a>
+              <ul class="dropdown-content">
+                <li><a href="/scientific/soon.html">School of Arts</a>
+                 <!-- <ul class="dropdown-content2">
+                      <li><a href="#">Arabic Language</a></li>
+                      <li><a href="#">Geography</a></li>
+                      <li><a href="#">History</a></li>
+                      <li><a href="#">Philosophy</a></li>
+                      <li><a href="#">Psychology</a></li>
+                      <li><a href="#">Social Work</a></li>
+                      <li><a href="#">Sociology</a></li>
+                  </ul>
+                -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Business</a>
+                  <!-- <ul class="dropdown-content2">
+                      <li><a href="#">Accounting</a></li>
+                      <li><a href="#">Business Economics</a></li>
+                      <li><a href="#">Business Management</a></li>
+                      <li><a href="#">Finance</a></li>
+                      <li><a href="#">Marketing</a></li>
+                      <li><a href="#">Management Information Systems</a></li>
+                      <li><a href="#">Public Administration</a></li>
+                  </ul>
+                  -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Shari'a</a>
+                  <!--<ul class="dropdown-content2">
+                      <li><a href="#">Foundations of Religion</a></li>
+                      <li><a href="#">Islamic Finance and Banking</a></li>
+                      <li><a href="#">Islamic Juripudence</a></li>
+                      <li><a href="#">Studies</a></li>
+                  </ul>
+                  -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Law</a>
+                   <!--<ul class="dropdown-content2">
+                      <li><a href="#">Private Law</a></li>
+                      <li><a href="#">Public Law</a></li>
+                   </ul>
+                 -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Educational Science</a>
+                    <!--<ul class="dropdown-content2">
+                      <li><a href="#">Counseling and Special Education</a></li>
+                      <li><a href="#">Curriculum and Instruction</a></li>
+                      <li><a href="#">Educational Administration and Foundations</a></li>
+                      <li><a href="#">Educational Psychology</a></li>
+                       <li><a href="#">Library and Information</a></li>
+                  </ul>
+                -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Physical Education</a>
+                   <!--<ul class="dropdown-content2">
+                      <li><a href="#">Health and Reacretion</a></li>
+                      <li><a href="#">Management and Coaching</a></li>
+                      <li><a href="#">Supervision and Teaching</a></li>
+                   </ul>
+                 -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Arts and Design</a>
+                   <!--<ul class="dropdown-content2">
+                      <li><a href="#">Music</a></li>
+                      <li><a href="#">Theater Arts</a></li>
+                      <li><a href="#">Visual Arts</a></li>
+                   </ul>
+                 -->
+                </li>
+                <li><a href="/scientific/soon.html">School of Foreign Languages</a>
+                  <!--<ul class="dropdown-content2">
+                      <li><a href="#">Asian Languages</a></li>
+                      <li><a href="#">English Language and Literature</a></li>
+                      <li><a href="#">European Languages</a></li>
+                      <li><a href="#">French Language and Literature</a></li>
+                  </ul>
+                -->
+                </li>
+                <li><a href="/scientific/soon.html">School of  Archaeology and Tourism</a>
+                   <!--<ul class="dropdown-content2">
+                      <li><a href="#">Archaeology</a></li>
+                      <li><a href="#">Cultural Resources Management and Conservation</a></li>
+                      <li><a href="#">Tourism Management</a></li>
+                   </ul>
+                 -->
+                </li>
+                <li><a href="/scientific/soon.html">Prince Al Hussein Bin Abdullah II<br  />School of International Studies</a>
+                   <!--<ul class="dropdown-content2">
+                      <li><a href="#">International Development</a></li>
+                      <li><a href="#">International Relations and Diplomatic and Regional Studies</a></li>
+                      <li><a href="#">Political Science</a></li>
+                   </ul>
+                 -->
+                </li>
+              </ul>
+          </li>
+          <li>
+            <a href="" class="dropbtn">Health Schools</a>
+              <ul class="dropdown-content">
+                <li><a href="/scientific/soon.html">School of Medicine</a>
+                    <!--<ul class="dropdown-content2">
+                      <li><a href="#">Anatomy and Histology</a></li>
+                      <li><a href="#">Anesthesia and Intensive Care</a></li>
+                      <li><a href="#">Family and Community Medicine</a></li>
+                      <li><a href="#">General Surgery</a></li>
+                      <li><a href="#">Internal Medicine</a></li>
+                      <li><a href="#">Obstetrics and Gynecology</a></li>
+                      <li><a href="#">Pathology and Microbiology and Forensic Medicine</a></li>
+                      <li><a href="#">Pediatrics</a></li>
+                      <li><a href="#">Pharmacology</a></li>
+                      <li><a href="#">Physiology and Biochemistry</a></li>
+                      <li><a href="#">Radiology</a></li>
+                      <li><a href="#">Special Surgery</a></li>
+                   </ul> -->
+                
+                </li> 
+                <li><a href="/scientific/soon.html">School of Nursing</a>
+                   <!--<ul class="dropdown-content2">
+                      <li><a href="#">Clinical Nursing</a></li>
+                      <li><a href="#">Community Health Nursing</a></li>
+                      <li><a href="#">Maternal and Child Health Nursing</a></li>
+                   </ul> -->
+                 
+                </li> 
+                <li><a href="/scientific/soon.html">School of Pharmacy</a>
+                   <!-- <ul class="dropdown-content2">
+                      <li><a href="#">Biopharmaceutics and Clinical Pharmacy</a></li>
+                      <li><a href="#">Pharmaceutical and Pharmaceutical Technology</a></li>
+                      <li><a href="#">Pharmaceutical Sciences</a></li>
+                   </ul> -->
+                
+                </li>
+                <li><a href="/scientific/soon.html">School of Dentistry</a>
+                 <!--<ul class="dropdown-content2">
+                      <li><a href="#">Conservative Dentistry</a></li>
+                      <li><a href="#">Oral and Maxillofacial Surgery, Oral Medicine and Periodontology</a></li>
+                      <li><a href="#">Pediatric Dentistry, Orthodontics and Preventive Dentistry</a></li>
+                      <li><a href="#">Removable Prosthodontics</a></li>
+                  </ul>-->
+                </li>
+          
+                <li><a href="/scientific/soon.html">School of Rehabilitation Sciences</a>
+                 <!--<ul class="dropdown-content2">
+                      <li><a href="#">Hearing and Speech Sciences</a></li>
+                      <li><a href="#">Occupational Therapy</a></li>
+                      <li><a href="#">Orthotics and Prosthetics</a></li>
+                      <li><a href="#">Physiotherapy</a></li>
+                  </ul>-->
+                
+                </li>
+              </ul>
+          </li>
+          <li style="float:right">
+            <a href="#">Arabic</a>
+          </li>
+       </ul>
+  </div>
+  <div class="column left">
+  <h3 style="margin: 20px;text-decoration: underline;font-size: 32px;margin-left: 1%;"><strong>Computer Science :</strong></h3>
+
+  <button class="accordion" style="float: left;">Obligatory Specialization Requirements </button>
+
+  <div class="panel" style="float: left; clear: both;">
+    <br />
+  <button class="accordion2">Calculus II</button>
+  <div class="panel2">
+    <table border="0" style="width: 100%;" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Stewart Calculus 8th Edition 2016 Textbook</a>
+          <div ><a href="Stewart Calculus 8th Edition 2016 Textbook.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II & III Student Solutions for Stewart's Book 7th Edition</a>
+          <div ><a href="Calculus II & III Student Solutions for Stewart's Book 7th Edition.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Notebook First - Dr. Muna Sakijha</a>
+          <div ><a href="Calculus II Notebook First - Dr. Muna Sakijha 2013.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Notebook Second - Dr. Muna Sakijha</a>
+          <div ><a href="Calculus II Notebook Second - Dr. Muna Sakijha 2013.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Notebook Final - Dr. Muna Sakijha</a>
+          <div ><a href="Calculus II Notebook Final - Dr. Muna Sakijha 2013.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Notebook First - Dr. Hassan il Izza</a>
+          <div ><a href="Calculus II Notebook First - Dr. Hassan il Izza.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Notebook Second - Dr. Hassan il Izza</a>
+          <div ><a href="Calculus II Notebook Second - Dr. Hassan il Izza.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Notebook Final - Dr. Hassan il Izza</a>
+          <div ><a href="Calculus II Notebook Final - Dr. Hassan il Izza.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:3px;">
+            <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+            <a href="#" class="image" style="padding: 5px;">PDF | Calculus II Second Summary</a>
+            <div ><a href="Calculus II Second Summary.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+          </td>
+          <td class="container">
+          <a href="#" class="image" style="padding: 5px;">IMG | Trigonometric Functions Derivations Summary</a>
+          <div ><a href="Trigonometric Functions Derivations Summary.jpg" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <button class="accordion2">Principles of Statistics</button>
+  <div class="panel2">
+   <table border="0" style="width: 100%;" cellspacing="0" cellpadding="0"><tbody>
+      <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Dr. Osama Alqam</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Notebook - Dr. Osama Alqam.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+        </td>
+      </tr>
+          <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Dr. Amal il Helo</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Notebook - Dr. Amal il Helo.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Dr. Murad Ahmad 2016-17</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Notebook - Dr. Murad Ahmad 2016-2017.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> 
+          <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Principles of Statistics Summary 2014-2015</a>
+          <div ><a href="/scientific/kasit/cis/Principles of Statistics Summary.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistical Tables</a>
+          <div ><a href="/scientific/kasit/cis/Statistical Tables.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> 
+      <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Summer First 2015</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Summer First 2015.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Satistics Second 2015</a>
+          <div ><a href="/scientific/kasit/cis/Satistics Second 2015.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Final Testbank</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Final Testbank.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> 
+      <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Questions 1</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Questions 1.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Questions 2</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Questions 2.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Rules</a>
+          <div ><a href="/scientific/kasit/cis/Statistics Rules.pdf" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> 
+
+    
+        </tbody>
+      </table>
+  </div>
+<button class="accordion2">Linear Algebra 1</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+<button class="accordion2">Physics for Computer Science</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Physics for Computer Science - Lab </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Logic Design</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Data Structures - 2</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+<button class="accordion2">Data Structures - 1 Lab</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Data Structures - 2 Lab</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Theory of Computation</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Computer Organization</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Theory of Algorithms</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+<button class="accordion2">Numerical Analysis</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Modeling and Simulation</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Computer Graphics</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">COMPUTER NETWORKS - 1</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Problem Solving Lab </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Graph Theory  </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Computer Security  </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Parallel and Distributed Systems </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">design and Implementation of Programming Languages</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Operating Systems</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Systems Programming and Compilers Construction </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">PROJECT-1  </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">PROJECT-2  </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">TRAINING</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Artifical Intelligence </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Introduction to Software Engineering </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <br />
+  </div>
+
+  <button class="accordion">Elective Specialization Requirements </button>
+  <div class="panel" style="float: right;">
+    <br />
+  <button class="accordion2">Programming Techniques in Special Languages </button>
+  <div class="panel2">
+   <table border="0" style="width: 100%;" cellspacing="0" cellpadding="0"><tbody>
+          <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download" /></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Statistics Notebook - Osama Alqam</a>
+          <div ><a href="Statistics Notebook - Osama Alqam.pdf" style="color: white;" class="overlay" download target="_blank">Download file</a></div>
+        </td>
+      </tr>
+          <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Something useful</a>
+          <div class="overlay">Download file</div>
+        </td>
+      </tr>
+          <tr>
+        <td style="padding:3px;">
+          <center><img src="/images/logos/downloadbutton.png" height="25px" width="25px" alt="download"/></center>
+        </td>
+        <td class="container">
+          <a href="#" class="image" style="padding: 5px;">PDF | Something useful 222</a>
+          <div ><a href="aziz.jpg" style="color: white;" class="overlay" download target="_blank" >Download file</a></div>
+        </td>
+      </tr> 
+        </tbody>
+      </table>
+  </div>
+
+  <button class="accordion2">NETWORK PROGRAMMING  </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Computer Systems Performance </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Pattern Recognition </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Games Design and Development</button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Mobile Computing </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Information Visualization </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Computer Networks -2 </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Multimedia Networking </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Mobile Wireless Networks </button>
+  <div class="panel2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion2">Introduction to Bioinformatics </button>
+  <div class="panel2">
+    
+  </div>
+
+  <button class="accordion2">Digital Forensics </button>
+  <div class="panel2">
+   
+  </div>
+
+  <button class="accordion2">Data Sciences </button>
+  <div class="panel2">
+   
+  </div>
+
+  <button class="accordion2">Special Topics </button>
+  <div class="panel2">
+   
+  </div>
+
+  <button class="accordion2">Digital Image Proccessing </button>
+  <div class="panel2">
+   
+  </div>
+
+  <button class="accordion2">Operations Research </button>
+  <div class="panel2">
+   
+  </div>
+
+
+  <button class="accordion2">WEB APPLICATION DEVELOPMENT - 2 </button>
+  <div class="panel2">
+    
+  </div>
+<br />
+  </div>
+  </div>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("actives2");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  var acc = document.getElementsByClassName("accordion2");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("actives");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+
+      <div class="column right">
+        <img src="/images/logos/ITlogo.png" alt="Information Technology Logo" width="150px" height="160px"/>
+        <h2>King Abdullah II School of<br /> Information Technology</h2>
+      </div>
+
+  <br />
+  <br />
+
+        <!--Footer menu with facebook and email links-->
+
+    
+      <div class="footer">
+
+        <table border="0" align="left">
+          <tr>
+            <th colspan="4" style="font-size: 18px; text-align: left"><u>Contact us</u> : </th>
+          </tr>
+
+          <tr>
+            <th><img src="/images/logos/facebooklogo.png" height="30" width="30"></th>
+
+            <td>
+              <a href="https://www.facebook.com/messages/t/Yaseen7Rajabi" target="Facebook" style="color: #A52A2A;font-family: 'Josefin Sans', sans-serif; text-decoration: none" class="footers">Yaseen Rajabi</a>
+            </td>
+            <td style="color: #A52A2A;font-family: 'Josefin Sans', sans-serif;">&</td>
+            <td>
+              <a href="https://www.facebook.com/messages/t/AL.BATSH.OMAR/" target="Facebook" style="color: #A52A2A;font-family: 'Josefin Sans', sans-serif; text-decoration: none" class="footers">Omar Al-Batsh</a>
+            </td>
+          </tr>
+        </table>
+
+        <table border="0"  style=" position: relative;margin-left: auto;" >
+          <tr>
+            <th colspan="2" style="font-size: 18px; text-align: left;font-family: 'Josefin Sans', sans-serif;">- Help us expand by sending useful links and files to :</th>
+          </tr>
+          <tr>
+            <th width="40">&nbsp;&nbsp;<img src="/images/logos/emailslogo.png" height="30" width="30" ></th>
+            <td style="font-family: 'Josefin Sans', sans-serif; text-align: left;"><a href="mailto:AmbehTeam@gmail.com" class="footers">Ambeh Team</a></td>
+          </tr>
+        </table>
+
+          <h5>&copy; 2019 by Ambeh Team , Inc. 
+          All Rights Reserved.</h5>
+      </div>
+  </body>
+</html>
